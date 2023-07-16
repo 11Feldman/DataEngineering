@@ -2,22 +2,7 @@
 ## Data Engineering
 ### Repositorio de ejercicios de CoderHouse 
 
-[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
-
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
-[![GitHub commits](https://img.shields.io/github/commits-since/Naereen/StrapDown.js/v1.0.0.svg)](https://GitHub.com/Naereen/StrapDown.js/commit/)
-
-[![GitHub latest commit](https://badgen.net/github/last-commit/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
-
-[![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/network/)
-
-[![GitHub forks](https://badgen.net/github/forks/Naereen/Strapdown.js/)](https://GitHub.com/Naereen/StrapDown.js/network/)
-
-[![Naereen's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Naereen&theme=blue-green)](https://github.com/anuraghazra/github-readme-stats)
-
-[![DenverCoder1's github streak](https://github-readme-streak-stats.herokuapp.com/?user=Naereen&theme=blue-green)](https://github.com/DenverCoder1/github-readme-streak-stats)
-
 
 #### Entregable 1:
 + A. Se debe conectar a una Api publica para extraer datos
@@ -61,7 +46,7 @@ Apache Airflow se levanta con un docker-compose.
 Las credenciales a la api y las variables de conexion a AWS se encuentran en la configuracion de AirFlow para mantenerlas de manera secreta y encriptadas.
 
 
-<!-- 
+
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
@@ -76,7 +61,7 @@ _Que cosas necesitas para instalar el software y como instalarlas_
 ```
 Da un ejemplo
 ```
-<!-- 
+
 ### Instalación 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
@@ -117,11 +102,9 @@ Da un ejemplo
 
 ## Despliegue 📦 -->
 
-<!-- _Agrega notas adicionales sobre como hacer deploy_ -->
+Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
-
-<!-- _Menciona las herramientas que utilizaste para crear tu proyecto_ -->
 
 * [Airflow](https://airflow.apache.org/) - plataforma creada por la comunidad para crear, programar y monitorear flujos de trabajo mediante programación.
 * [Python](https://www.python.org/) - Tecnologia utilizada para el proyecto
@@ -131,7 +114,7 @@ Da un ejemplo
 * [Pandas](https://pandas.pydata.org/) - Tecnologia utilizada para el proyecto
 * [PySpark](https://spark.apache.org/docs/latest/api/python/) - Tecnologia utilizada para el proyecto
 * [Jupyter Notebook](https://jupyter.org/) - Tecnologia utilizada para el proyecto
-* [VSC](https://code.visualstudio.com/) - IDLE utilizado para el proyecto.
+* [https://github.com/get-icon/geticon/blob/master/icons/visual-studio-code.svg] [VSC](https://code.visualstudio.com/) - IDLE utilizado para el proyecto.
 
 
 
@@ -150,11 +133,10 @@ Para todas las versiones disponibles, mira los [tags en este repositorio](https:
 
 ## Autores ✒️
 
-* **Ariel Feldman** - *Trabajo Inicial* - [feldmanam](https://github.com/feldman11)
+* **Ariel Feldman** - [feldmanam](https://github.com/feldman11)
 
 <!-- También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto.  -->
 
 ## Licencia 📄
 
-[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/) Este proyecto se encuentra open source
-<!-- Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles -->
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
