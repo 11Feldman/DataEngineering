@@ -8,27 +8,20 @@ node_modules
 *.json
 
 # Ignoro subida de archivo especifico
-config.*
-Entregable_3/etl.py*
+/config.py*
+DataEngineering/Entregable_3/etl.*
 primer_dag.py*
 primer_sensor.py*
 segundo_dag.py*
 taskgroups.py*
 test_context.py*
 test_pythonoperator.py*
-
+Entregable_2/etl_v2.py*
 
 # Ignora subidas de carpetas
 Entregable_1/__pycache__*
 Entregable_2/__pycache__*
 Entregable_3/__pycache__*
-Entregable_2/etl_v2.py*
-Entregable_3/logs/dag_id=mi_primer_context*
-Entregable_3/logs/dag_id=mi_primer_pythonoperator*
-Entregable_3/logs/dag_id=prueba_task_groups*
-Entregable_3/logs/dag_id=probando_de_manera_propia*
-Entregable_3/logs/dag_id=data_sensor_id*
-Entregable_3/logs/dag_id=probando_conexion*
 
 # Ignora los archivos relacionados a API keys
 .env
