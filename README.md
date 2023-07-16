@@ -2,6 +2,23 @@
 ## Data Engineering
 ### Repositorio de ejercicios de CoderHouse 
 
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+[![GitHub commits](https://img.shields.io/github/commits-since/Naereen/StrapDown.js/v1.0.0.svg)](https://GitHub.com/Naereen/StrapDown.js/commit/)
+
+[![GitHub latest commit](https://badgen.net/github/last-commit/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
+
+[![GitHub forks](https://img.shields.io/github/forks/Naereen/StrapDown.js.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/Naereen/StrapDown.js/network/)
+
+[![GitHub forks](https://badgen.net/github/forks/Naereen/Strapdown.js/)](https://GitHub.com/Naereen/StrapDown.js/network/)
+
+[![Naereen's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Naereen&theme=blue-green)](https://github.com/anuraghazra/github-readme-stats)
+
+[![DenverCoder1's github streak](https://github-readme-streak-stats.herokuapp.com/?user=Naereen&theme=blue-green)](https://github.com/DenverCoder1/github-readme-streak-stats)
+
+
 #### Entregable 1:
 + A. Se debe conectar a una Api publica para extraer datos
 + B. Crear tablas en Redshift.
@@ -38,13 +55,9 @@ Utilizando AirFlow
 + C. Insertar datos desde un data frame en Redshift.
 
 Se toman datos de la api de marvel https://developer.marvel.com/.
-
 Para este caso se usa AirFlow:
-
 Usando DAGS, Operadores, Tareas y XCOMs.
-
 Apache Airflow se levanta con un docker-compose.
-
 Las credenciales a la api y las variables de conexion a AWS se encuentran en la configuracion de AirFlow para mantenerlas de manera secreta y encriptadas.
 
 
@@ -102,7 +115,7 @@ _Explica que verifican estas pruebas y por qué_
 Da un ejemplo
 ```
 
-## Despliegue 📦 --> -->
+## Despliegue 📦 -->
 
 <!-- _Agrega notas adicionales sobre como hacer deploy_ -->
 
@@ -137,10 +150,11 @@ Para todas las versiones disponibles, mira los [tags en este repositorio](https:
 
 ## Autores ✒️
 
-* **Ariel Feldman** - *Trabajo Inicial* - [villanuevand](https://github.com/feldman11)
+* **Ariel Feldman** - *Trabajo Inicial* - [feldmanam](https://github.com/feldman11)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+<!-- También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto.  -->
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/) Este proyecto se encuentra open source
+<!-- Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles -->
