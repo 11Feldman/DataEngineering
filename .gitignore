@@ -10,7 +10,7 @@ node_modules
 
 # Ignoro subida de archivo especifico
 config.py*
-DataEngineering/Entregable_3/etl.*
+Entregable_3/etl.py*
 primer_dag.py*
 primer_sensor.py*
 segundo_dag.py*
@@ -18,14 +18,16 @@ taskgroups.py*
 test_context.py*
 test_pythonoperator.py*
 Entregable_2/etl_v2.py*
+characters.py*
 
 # Ignora subidas de carpetas
 Entregable_1/__pycache__*
 Entregable_2/__pycache__*
+Entregable_2/data*
 Entregable_3/__pycache__*
 
 # Ignora los archivos relacionados a API keys
-.env
+.env*
 
 # Ignora archivos de configuración SASS
 .sass-cache
