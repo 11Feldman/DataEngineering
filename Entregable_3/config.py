@@ -26,3 +26,4 @@ os.environ['AWS_HOST']=AWS['HOST']
 os.environ['AWS_PORT']=AWS['PORT']
 os.environ['AWS_SCHEMA']=AWS['SCHEMA']
 os.environ['AWS_DATABASE']=AWS['DATABASE']
+ 
