@@ -2318,3 +2318,11 @@
 [2023-07-16 03:04:29,473] {logging_mixin.py:115} INFO - [2023-07-16 03:04:29,472] {dag.py:2972} INFO - Setting next_dagrun for example_branch_datetime_operator to 2023-07-15T00:00:00+00:00, run_after=2023-07-16T00:00:00+00:00
 [2023-07-16 03:04:29,475] {logging_mixin.py:115} INFO - [2023-07-16 03:04:29,475] {dag.py:2972} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2023-07-15T00:00:00+00:00, run_after=2023-07-16T00:00:00+00:00
 [2023-07-16 03:04:29,489] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.113 seconds
+[2023-07-16 03:05:00,072] {processor.py:153} INFO - Started process (PID=33214) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2023-07-16 03:05:00,073] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2023-07-16 03:05:00,073] {logging_mixin.py:115} INFO - [2023-07-16 03:05:00,073] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2023-07-16 03:05:00,088] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_datetime_operator', 'example_branch_datetime_operator_2']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2023-07-16 03:05:00,120] {logging_mixin.py:115} INFO - [2023-07-16 03:05:00,120] {dag.py:2420} INFO - Sync 2 DAGs
+[2023-07-16 03:05:00,146] {logging_mixin.py:115} INFO - [2023-07-16 03:05:00,146] {dag.py:2972} INFO - Setting next_dagrun for example_branch_datetime_operator to 2023-07-15T00:00:00+00:00, run_after=2023-07-16T00:00:00+00:00
+[2023-07-16 03:05:00,148] {logging_mixin.py:115} INFO - [2023-07-16 03:05:00,148] {dag.py:2972} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2023-07-15T00:00:00+00:00, run_after=2023-07-16T00:00:00+00:00
+[2023-07-16 03:05:00,161] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.094 seconds
