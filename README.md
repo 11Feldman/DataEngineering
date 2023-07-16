@@ -114,7 +114,7 @@ Agrega notas adicionales sobre como hacer deploy_
 * [Pandas](https://pandas.pydata.org/) - Tecnologia utilizada para el proyecto
 * [PySpark](https://spark.apache.org/docs/latest/api/python/) - Tecnologia utilizada para el proyecto
 * [Jupyter Notebook](https://jupyter.org/) - Tecnologia utilizada para el proyecto
-* [![forthebadge made-with-python](https://github.com/get-icon/geticon/blob/master/icons/visual-studio-code.svg)] [VSC](https://code.visualstudio.com/) - IDLE utilizado para el proyecto.
+* [VSC](https://code.visualstudio.com/) - IDLE utilizado para el proyecto.
 
 <!-- 
 ## Contribuyendo 🖇️
