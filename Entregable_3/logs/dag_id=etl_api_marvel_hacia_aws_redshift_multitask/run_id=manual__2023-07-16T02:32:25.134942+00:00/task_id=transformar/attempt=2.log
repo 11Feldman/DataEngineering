@@ -1,0 +1,150 @@
+[2023-07-16 02:34:32,510] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.transformar manual__2023-07-16T02:32:25.134942+00:00 [queued]>
+[2023-07-16 02:34:32,527] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.transformar manual__2023-07-16T02:32:25.134942+00:00 [queued]>
+[2023-07-16 02:34:32,527] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-16 02:34:32,527] {taskinstance.py:1377} INFO - Starting attempt 2 of 11
+[2023-07-16 02:34:32,527] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-16 02:34:32,551] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): transformar> on 2023-07-16 02:32:25.134942+00:00
+[2023-07-16 02:34:32,558] {standard_task_runner.py:52} INFO - Started process 9936 to run task
+[2023-07-16 02:34:32,562] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'etl_api_marvel_hacia_aws_redshift_multitask', 'transformar', 'manual__2023-07-16T02:32:25.134942+00:00', '--job-id', '877', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_multiple_tasks.py', '--cfg-path', '/tmp/tmpsba0kr1j', '--error-file', '/tmp/tmpw5l48vuo']
+[2023-07-16 02:34:32,564] {standard_task_runner.py:80} INFO - Job 877: Subtask transformar
+[2023-07-16 02:34:32,640] {task_command.py:371} INFO - Running <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.transformar manual__2023-07-16T02:32:25.134942+00:00 [running]> on host 7a1b6d75866e
+[2023-07-16 02:34:32,742] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=arielmfeldman.af@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Ariel Feldman
+AIRFLOW_CTX_DAG_ID=etl_api_marvel_hacia_aws_redshift_multitask
+AIRFLOW_CTX_TASK_ID=transformar
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-16T02:32:25.134942+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-16T02:32:25.134942+00:00
+[2023-07-16 02:34:32,758] {logging_mixin.py:115} INFO - {'1': {'id_character': 1011334, 'nombre': '3-D Man', 'descripcion': 'Sin descripcion', 'cantidad_de_comics': 12, 'cantidad_de_series': 3, 'cantidad_de_historias': 21, 'fecha_modificacion': '2014-04-29T14:18:17-0400'}, '2': {'id_character': 1017100, 'nombre': 'A-Bomb (HAS)', 'descripcion': "Rick Jones has been Hulk's best bud since day one, but now he's more than a friend...he's a teammate! Transformed by a Gamma energy explosion, A-Bomb's thick, armored skin is just as strong and powerful as it is blue. And when he curls into action, he uses it like a giant bowling ball of destruction! ", 'cantidad_de_comics': 4, 'cantidad_de_series': 2, 'cantidad_de_historias': 7, 'fecha_modificacion': '2013-09-18T15:54:04-0400'}, '3': {'id_character': 1009144, 'nombre': 'A.I.M.', 'descripcion': 'AIM is a terrorist organization bent on destroying the world.', 'cantidad_de_comics': 53, 'cantidad_de_series': 36, 'cantidad_de_historias': 57, 'fecha_modificacion': '2013-10-17T14:41:30-0400'}, '4': {'id_character': 1010699, 'nombre': 'Aaron Stack', 'descripcion': 'Sin descripcion', 'cantidad_de_comics': 14, 'cantidad_de_series': 3, 'cantidad_de_historias': 27, 'fecha_modificacion': '1969-12-31T19:00:00-0500'}, '5': {'id_character': 1009146, 'nombre': 'Abomination (Emil Blonsky)', 'descripcion': 'Formerly known as Emil Blonsky, a spy of Soviet Yugoslavian origin working for the KGB, the Abomination gained his powers after receiving a dose of gamma radiation similar to that which transformed Bruce Banner into the incredible Hulk.', 'cantidad_de_comics': 55, 'cantidad_de_series': 27, 'cantidad_de_historias': 65, 'fecha_modificacion': '2012-03-20T12:32:12-0400'}, '6': {'id_character': 1016823, 'nombre': 'Abomination (Ultimate)', 'descripcion': 'Sin descripcion', 'cantidad_de_comics': 2, 'cantidad_de_series': 2, 'cantidad_de_historias': 3, 'fecha_modificacion': '2012-07-10T19:11:52-0400'}, '7': {'id_character': 1009148, 'nombre': 'Absorbing Man', 'descripcion': 'Sin descripcion', 'cantidad_de_comics': 97, 'cantidad_de_series': 48, 'cantidad_de_historias': 109, 'fecha_modificacion': '2013-10-24T14:32:08-0400'}, '8': {'id_character': 1009149, 'nombre': 'Abyss', 'descripcion': 'Sin descripcion', 'cantidad_de_comics': 8, 'cantidad_de_series': 3, 'cantidad_de_historias': 8, 'fecha_modificacion': '2014-04-29T14:10:43-0400'}, '9': {'id_character': 1010903, 'nombre': 'Abyss (Age of Apocalypse)', 'descripcion': 'Sin descripcion', 'cantidad_de_comics': 3, 'cantidad_de_series': 3, 'cantidad_de_historias': 2, 'fecha_modificacion': '1969-12-31T19:00:00-0500'}, '10': {'id_character': 1011266, 'nombre': 'Adam Destine', 'descripcion': 'Sin descripcion', 'cantidad_de_comics': 0, 'cantidad_de_series': 0, 'cantidad_de_historias': 0, 'fecha_modificacion': '1969-12-31T19:00:00-0500'}, '11': {'id_character': 1010354, 'nombre': 'Adam Warlock', 'descripcion': 'Adam Warlock is an artificially created human who was born in a cocoon at a scientific complex called The Beehive.', 'cantidad_de_comics': 195, 'cantidad_de_series': 87, 'cantidad_de_historias': 224, 'fecha_modificacion': '2013-08-07T13:49:06-0400'}, '12': {'id_character': 1010846, 'nombre': 'Aegis (Trey Rollins)', 'descripcion': 'Sin descripcion', 'cantidad_de_comics': 0, 'cantidad_de_series': 0, 'cantidad_de_historias': 0, 'fecha_modificacion': '1969-12-31T19:00:00-0500'}, '13': {'id_character': 1017851, 'nombre': 'Aero (Aero)', 'descripcion': 'Sin descripcion', 'cantidad_de_comics': 29, 'cantidad_de_series': 5, 'cantidad_de_historias': 29, 'fecha_modificacion': '2021-08-27T17:52:34-0400'}, '14': {'id_character': 1012717, 'nombre': 'Agatha Harkness', 'descripcion': 'Sin descripcion', 'cantidad_de_comics': 21, 'cantidad_de_series': 10, 'cantidad_de_historias': 26, 'fecha_modificacion': '2021-08-06T11:30:56-0400'}, '15': {'id_character': 1011297, 'nombre': 'Agent Brand', 'descripcion': 'Sin descripcion', 'cantidad_de_comics': 30, 'cantidad_de_series': 7, 'cantidad_de_historias': 34, 'fecha_modificacion': '2013-10-24T13:09:30-0400'}, '16': {'id_character': 1011031, 'nombre': 'Agent X (Nijo)', 'descripcion': "Originally a partner of the mind-altering assassin Black Swan, Nijo spied on Deadpool as part of the Swan's plan to exact revenge for Deadpool falsely taking credit for the Swan's assassination of the Four Winds crime family, which included Nijo's brother.", 'cantidad_de_comics': 18, 'cantidad_de_series': 3, 'cantidad_de_historias': 23, 'fecha_modificacion': '1969-12-31T19:00:00-0500'}, '17': {'id_character': 1009150, 'nombre': 'Agent Zero', 'descripcion': 'Sin descripcion', 'cantidad_de_comics': 29, 'cantidad_de_series': 10, 'cantidad_de_historias': 31, 'fecha_modificacion': '1969-12-31T19:00:00-0500'}, '18': {'id_character': 1011198, 'nombre': 'Agents of Atlas', 'descripcion': 'Sin descripcion', 'cantidad_de_comics': 45, 'cantidad_de_series': 13, 'cantidad_de_historias': 52, 'fecha_modificacion': '2016-02-03T10:25:22-0500'}, '19': {'id_character': 1011175, 'nombre': 'Aginar', 'descripcion': 'Sin descripcion', 'cantidad_de_comics': 0, 'cantidad_de_series': 0, 'cantidad_de_historias': 0, 'fecha_modificacion': '1969-12-31T19:00:00-0500'}, '20': {'id_character': 1011136, 'nombre': 'Air-Walker (Gabriel Lan)', 'descripcion': 'Sin descripcion', 'cantidad_de_comics': 4, 'cantidad_de_series': 3, 'cantidad_de_historias': 3, 'fecha_modificacion': '1969-12-31T19:00:00-0500'}}
+[2023-07-16 02:34:32,770] {logging_mixin.py:115} INFO - Index(['id_character', 'nombre', 'descripcion', 'cantidad_de_comics',
+       'cantidad_de_series', 'cantidad_de_historias', 'fecha_modificacion'],
+      dtype='object')
+[2023-07-16 02:34:32,770] {logging_mixin.py:115} INFO - (20, 7)
+[2023-07-16 02:34:32,770] {logging_mixin.py:115} INFO - Ya existe el csv:  /opt/***/data/compania1/
+[2023-07-16 02:34:32,782] {xcom.py:586} ERROR - Could not serialize the XCom value into JSON. If you are using pickle instead of JSON for XCom, then you need to enable pickle support for XCom in your *** config.
+[2023-07-16 02:34:32,783] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_etl_multiple_tasks.py", line 114, in transform
+    value=df_not_duplicates
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2412, in xcom_push
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 198, in set
+    map_index=map_index,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 583, in serialize_value
+    return json.dumps(value).encode('UTF-8')
+  File "/usr/local/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DataFrame is not JSON serializable
+[2023-07-16 02:34:32,796] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_api_marvel_hacia_aws_redshift_multitask, task_id=transformar, execution_date=20230716T023225, start_date=20230716T023432, end_date=20230716T023432
+[2023-07-16 02:34:32,818] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/email.py:119: PendingDeprecationWarning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2023-07-16 02:34:32,818] {configuration.py:552} WARNING - section/key [smtp/smtp_user] not found in config
+[2023-07-16 02:34:32,818] {email.py:228} INFO - Email alerting: attempt 1
+[2023-07-16 02:34:32,828] {configuration.py:552} WARNING - section/key [smtp/smtp_user] not found in config
+[2023-07-16 02:34:32,828] {email.py:228} INFO - Email alerting: attempt 1
+[2023-07-16 02:34:32,828] {taskinstance.py:1964} ERROR - Failed to send email to: ['arielmfeldman.af@gmail.com']
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1471, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1618, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1679, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_etl_multiple_tasks.py", line 114, in transform
+    value=df_not_duplicates
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2412, in xcom_push
+    session=session,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 198, in set
+    map_index=map_index,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/xcom.py", line 583, in serialize_value
+    return json.dumps(value).encode('UTF-8')
+  File "/usr/local/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DataFrame is not JSON serializable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2346, in email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 71, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 119, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 230, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 264, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1962, in handle_failure
+    self.email_alert(error, task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2348, in email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 71, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 119, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 230, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 264, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+[2023-07-16 02:34:32,845] {standard_task_runner.py:97} ERROR - Failed to execute job 877 for task transformar (Object of type DataFrame is not JSON serializable; 9936)
+[2023-07-16 02:34:32,895] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-07-16 02:34:32,947] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

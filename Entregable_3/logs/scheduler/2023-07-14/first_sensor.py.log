@@ -1,0 +1,872 @@
+[2023-07-14 01:19:50,827] {processor.py:153} INFO - Started process (PID=12485) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:19:50,828] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:19:50,829] {logging_mixin.py:115} INFO - [2023-07-14 01:19:50,829] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:19:50,840] {logging_mixin.py:115} INFO - [2023-07-14 01:19:50,838] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 3, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:19:50,840] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:19:50,867] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.045 seconds
+[2023-07-14 01:20:21,084] {processor.py:153} INFO - Started process (PID=12542) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:20:21,085] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:20:21,086] {logging_mixin.py:115} INFO - [2023-07-14 01:20:21,086] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:20:21,094] {logging_mixin.py:115} INFO - [2023-07-14 01:20:21,092] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 3, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:20:21,094] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:20:21,126] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.046 seconds
+[2023-07-14 01:20:52,092] {processor.py:153} INFO - Started process (PID=12609) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:20:52,093] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:20:52,094] {logging_mixin.py:115} INFO - [2023-07-14 01:20:52,094] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:20:52,099] {logging_mixin.py:115} INFO - [2023-07-14 01:20:52,098] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 3, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:20:52,099] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:20:52,125] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.036 seconds
+[2023-07-14 01:20:57,404] {processor.py:153} INFO - Started process (PID=12614) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:20:57,404] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:20:57,405] {logging_mixin.py:115} INFO - [2023-07-14 01:20:57,405] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:20:57,415] {logging_mixin.py:115} INFO - [2023-07-14 01:20:57,414] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 3, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:20:57,415] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:20:57,478] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.080 seconds
+[2023-07-14 01:21:27,778] {processor.py:153} INFO - Started process (PID=12679) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:21:27,779] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:21:27,779] {logging_mixin.py:115} INFO - [2023-07-14 01:21:27,779] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:21:27,785] {logging_mixin.py:115} INFO - [2023-07-14 01:21:27,784] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 3, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:21:27,785] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:21:27,810] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.036 seconds
+[2023-07-14 01:21:58,714] {processor.py:153} INFO - Started process (PID=12734) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:21:58,715] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:21:58,715] {logging_mixin.py:115} INFO - [2023-07-14 01:21:58,715] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:21:58,721] {logging_mixin.py:115} INFO - [2023-07-14 01:21:58,720] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 3, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:21:58,721] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:21:58,750] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.041 seconds
+[2023-07-14 01:22:28,858] {processor.py:153} INFO - Started process (PID=12799) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:22:28,858] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:22:28,859] {logging_mixin.py:115} INFO - [2023-07-14 01:22:28,859] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:22:28,865] {logging_mixin.py:115} INFO - [2023-07-14 01:22:28,864] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 3, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:22:28,865] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:22:28,892] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.037 seconds
+[2023-07-14 01:22:40,179] {processor.py:153} INFO - Started process (PID=12825) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:22:40,180] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:22:40,180] {logging_mixin.py:115} INFO - [2023-07-14 01:22:40,180] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:22:40,186] {logging_mixin.py:115} INFO - [2023-07-14 01:22:40,186] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:22:40,187] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:22:40,212] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.036 seconds
+[2023-07-14 01:23:11,194] {processor.py:153} INFO - Started process (PID=12882) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:23:11,195] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:23:11,195] {logging_mixin.py:115} INFO - [2023-07-14 01:23:11,195] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:23:11,200] {logging_mixin.py:115} INFO - [2023-07-14 01:23:11,199] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:23:11,200] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:23:11,223] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.031 seconds
+[2023-07-14 01:23:38,722] {processor.py:153} INFO - Started process (PID=12943) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:23:38,723] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:23:38,724] {logging_mixin.py:115} INFO - [2023-07-14 01:23:38,724] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:23:38,730] {logging_mixin.py:115} INFO - [2023-07-14 01:23:38,729] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:23:38,730] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:23:38,753] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.035 seconds
+[2023-07-14 01:24:04,908] {processor.py:153} INFO - Started process (PID=12990) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:24:04,910] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:24:04,911] {logging_mixin.py:115} INFO - [2023-07-14 01:24:04,911] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:24:04,923] {logging_mixin.py:115} INFO - [2023-07-14 01:24:04,922] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:24:04,924] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:24:05,038] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.155 seconds
+[2023-07-14 01:24:22,578] {processor.py:153} INFO - Started process (PID=13032) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:24:22,579] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:24:22,581] {logging_mixin.py:115} INFO - [2023-07-14 01:24:22,580] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:24:22,590] {logging_mixin.py:115} INFO - [2023-07-14 01:24:22,589] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:24:22,590] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:24:22,613] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.040 seconds
+[2023-07-14 01:24:52,875] {processor.py:153} INFO - Started process (PID=13098) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:24:52,875] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:24:52,876] {logging_mixin.py:115} INFO - [2023-07-14 01:24:52,876] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:24:52,882] {logging_mixin.py:115} INFO - [2023-07-14 01:24:52,881] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:24:52,882] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:24:52,912] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.041 seconds
+[2023-07-14 01:25:23,092] {processor.py:153} INFO - Started process (PID=13155) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:25:23,092] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:25:23,093] {logging_mixin.py:115} INFO - [2023-07-14 01:25:23,093] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:25:23,099] {logging_mixin.py:115} INFO - [2023-07-14 01:25:23,098] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:25:23,099] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:25:23,123] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.035 seconds
+[2023-07-14 01:25:54,053] {processor.py:153} INFO - Started process (PID=13221) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:25:54,053] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:25:54,054] {logging_mixin.py:115} INFO - [2023-07-14 01:25:54,054] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:25:54,059] {logging_mixin.py:115} INFO - [2023-07-14 01:25:54,058] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:25:54,060] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:25:54,087] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.038 seconds
+[2023-07-14 01:25:56,070] {processor.py:153} INFO - Started process (PID=13222) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:25:56,070] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:25:56,071] {logging_mixin.py:115} INFO - [2023-07-14 01:25:56,071] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:25:56,077] {logging_mixin.py:115} INFO - [2023-07-14 01:25:56,076] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:25:56,077] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:25:56,108] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.041 seconds
+[2023-07-14 01:26:26,983] {processor.py:153} INFO - Started process (PID=13280) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:26:26,984] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:26:26,985] {logging_mixin.py:115} INFO - [2023-07-14 01:26:26,985] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:26:26,990] {logging_mixin.py:115} INFO - [2023-07-14 01:26:26,989] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:26:26,991] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:26:27,014] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.035 seconds
+[2023-07-14 01:26:53,991] {processor.py:153} INFO - Started process (PID=13344) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:26:53,992] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:26:53,992] {logging_mixin.py:115} INFO - [2023-07-14 01:26:53,992] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:26:53,999] {logging_mixin.py:115} INFO - [2023-07-14 01:26:53,998] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:26:53,999] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:26:54,023] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.035 seconds
+[2023-07-14 01:27:24,835] {processor.py:153} INFO - Started process (PID=13401) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:27:24,841] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:27:24,842] {logging_mixin.py:115} INFO - [2023-07-14 01:27:24,842] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:27:24,851] {logging_mixin.py:115} INFO - [2023-07-14 01:27:24,850] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:27:24,852] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:27:24,894] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.065 seconds
+[2023-07-14 01:27:31,133] {processor.py:153} INFO - Started process (PID=13414) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:27:31,134] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:27:31,134] {logging_mixin.py:115} INFO - [2023-07-14 01:27:31,134] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:27:31,140] {logging_mixin.py:115} INFO - [2023-07-14 01:27:31,139] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:27:31,140] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:27:31,161] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.030 seconds
+[2023-07-14 01:27:40,680] {processor.py:153} INFO - Started process (PID=13419) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:27:40,680] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:27:40,681] {logging_mixin.py:115} INFO - [2023-07-14 01:27:40,681] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:27:40,691] {logging_mixin.py:115} INFO - [2023-07-14 01:27:40,690] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:27:40,691] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:27:40,725] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.050 seconds
+[2023-07-14 01:27:52,855] {processor.py:153} INFO - Started process (PID=13455) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:27:52,855] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:27:52,856] {logging_mixin.py:115} INFO - [2023-07-14 01:27:52,856] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:27:52,863] {logging_mixin.py:115} INFO - [2023-07-14 01:27:52,862] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:27:52,863] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:27:52,897] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.047 seconds
+[2023-07-14 01:28:07,652] {processor.py:153} INFO - Started process (PID=13484) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:28:07,653] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:28:07,654] {logging_mixin.py:115} INFO - [2023-07-14 01:28:07,653] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:28:07,660] {logging_mixin.py:115} INFO - [2023-07-14 01:28:07,659] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:28:07,661] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:28:07,683] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.033 seconds
+[2023-07-14 01:28:25,845] {processor.py:153} INFO - Started process (PID=13527) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:28:25,846] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:28:25,847] {logging_mixin.py:115} INFO - [2023-07-14 01:28:25,847] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:28:25,860] {logging_mixin.py:115} INFO - [2023-07-14 01:28:25,859] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:28:25,860] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:28:25,909] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.069 seconds
+[2023-07-14 01:28:56,828] {processor.py:153} INFO - Started process (PID=13592) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:28:56,829] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:28:56,830] {logging_mixin.py:115} INFO - [2023-07-14 01:28:56,830] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:28:56,834] {logging_mixin.py:115} INFO - [2023-07-14 01:28:56,834] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:28:56,835] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:28:56,857] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.032 seconds
+[2023-07-14 01:29:27,390] {processor.py:153} INFO - Started process (PID=13648) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:29:27,390] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:29:27,391] {logging_mixin.py:115} INFO - [2023-07-14 01:29:27,391] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:29:27,396] {logging_mixin.py:115} INFO - [2023-07-14 01:29:27,395] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:29:27,396] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:29:27,415] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.029 seconds
+[2023-07-14 01:29:57,969] {processor.py:153} INFO - Started process (PID=13715) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:29:57,970] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:29:57,971] {logging_mixin.py:115} INFO - [2023-07-14 01:29:57,971] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:29:57,997] {logging_mixin.py:115} INFO - [2023-07-14 01:29:57,996] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:29:58,006] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:29:58,066] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.102 seconds
+[2023-07-14 01:30:28,337] {processor.py:153} INFO - Started process (PID=13772) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:30:28,338] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:30:28,339] {logging_mixin.py:115} INFO - [2023-07-14 01:30:28,339] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:30:28,344] {logging_mixin.py:115} INFO - [2023-07-14 01:30:28,343] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:30:28,345] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:30:28,369] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.035 seconds
+[2023-07-14 01:30:50,917] {processor.py:153} INFO - Started process (PID=13813) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:30:50,918] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 01:30:50,919] {logging_mixin.py:115} INFO - [2023-07-14 01:30:50,918] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:30:50,928] {logging_mixin.py:115} INFO - [2023-07-14 01:30:50,927] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 01:30:50,929] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 01:30:50,962] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.051 seconds
+[2023-07-14 02:42:57,515] {processor.py:153} INFO - Started process (PID=13870) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:42:57,527] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:42:57,528] {logging_mixin.py:115} INFO - [2023-07-14 02:42:57,528] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:42:57,542] {logging_mixin.py:115} INFO - [2023-07-14 02:42:57,540] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 02:42:57,551] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:42:57,606] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.103 seconds
+[2023-07-14 02:43:27,907] {processor.py:153} INFO - Started process (PID=13927) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:43:27,909] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:43:27,910] {logging_mixin.py:115} INFO - [2023-07-14 02:43:27,910] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:43:27,919] {logging_mixin.py:115} INFO - [2023-07-14 02:43:27,918] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 02:43:27,919] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:43:28,003] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.102 seconds
+[2023-07-14 02:43:58,458] {processor.py:153} INFO - Started process (PID=13993) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:43:58,459] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:43:58,460] {logging_mixin.py:115} INFO - [2023-07-14 02:43:58,460] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:43:58,473] {logging_mixin.py:115} INFO - [2023-07-14 02:43:58,472] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 4, in <module>
+    from airflow.operators.python import PythoOperator
+ImportError: cannot import name 'PythoOperator' from 'airflow.operators.python' (/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py)
+[2023-07-14 02:43:58,474] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:43:58,511] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.061 seconds
+[2023-07-14 02:44:20,701] {processor.py:153} INFO - Started process (PID=14049) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:44:20,702] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:44:20,703] {logging_mixin.py:115} INFO - [2023-07-14 02:44:20,702] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:44:20,719] {logging_mixin.py:115} INFO - [2023-07-14 02:44:20,718] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 20, in <module>
+    start_date = airflow.utils.dates.day_ago(3),
+AttributeError: module 'airflow.utils.dates' has no attribute 'day_ago'
+[2023-07-14 02:44:20,719] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:44:20,747] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.050 seconds
+[2023-07-14 02:44:51,167] {processor.py:153} INFO - Started process (PID=14106) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:44:51,167] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:44:51,168] {logging_mixin.py:115} INFO - [2023-07-14 02:44:51,168] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:44:51,178] {logging_mixin.py:115} INFO - [2023-07-14 02:44:51,177] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 20, in <module>
+    start_date = airflow.utils.dates.day_ago(3),
+AttributeError: module 'airflow.utils.dates' has no attribute 'day_ago'
+[2023-07-14 02:44:51,178] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:44:51,204] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.042 seconds
+[2023-07-14 02:45:07,071] {processor.py:153} INFO - Started process (PID=14143) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:45:07,072] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:45:07,072] {logging_mixin.py:115} INFO - [2023-07-14 02:45:07,072] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:45:07,094] {logging_mixin.py:115} INFO - [2023-07-14 02:45:07,093] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/first_sensor.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/first_sensor.py", line 39, in <module>
+    imprimir = PythoOperator(
+NameError: name 'PythoOperator' is not defined
+[2023-07-14 02:45:07,094] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:45:07,118] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.052 seconds
+[2023-07-14 02:45:26,949] {processor.py:153} INFO - Started process (PID=14173) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:45:26,950] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:45:26,950] {logging_mixin.py:115} INFO - [2023-07-14 02:45:26,950] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:45:26,962] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:45:27,069] {logging_mixin.py:115} INFO - [2023-07-14 02:45:27,069] {manager.py:508} INFO - Created Permission View: can delete on DAG:data_sensor_id
+[2023-07-14 02:45:27,081] {logging_mixin.py:115} INFO - [2023-07-14 02:45:27,081] {manager.py:508} INFO - Created Permission View: can edit on DAG:data_sensor_id
+[2023-07-14 02:45:27,090] {logging_mixin.py:115} INFO - [2023-07-14 02:45:27,090] {manager.py:508} INFO - Created Permission View: can read on DAG:data_sensor_id
+[2023-07-14 02:45:27,091] {logging_mixin.py:115} INFO - [2023-07-14 02:45:27,091] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:45:27,100] {logging_mixin.py:115} INFO - [2023-07-14 02:45:27,100] {dag.py:2439} INFO - Creating ORM DAG for data_sensor_id
+[2023-07-14 02:45:27,124] {logging_mixin.py:115} INFO - [2023-07-14 02:45:27,124] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-11T00:00:00+00:00, run_after=2023-07-12T00:00:00+00:00
+[2023-07-14 02:45:27,153] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.208 seconds
+[2023-07-14 02:45:57,764] {processor.py:153} INFO - Started process (PID=14238) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:45:57,766] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:45:57,767] {logging_mixin.py:115} INFO - [2023-07-14 02:45:57,767] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:45:57,783] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:45:57,881] {logging_mixin.py:115} INFO - [2023-07-14 02:45:57,881] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:45:57,945] {logging_mixin.py:115} INFO - [2023-07-14 02:45:57,945] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-11T00:00:00+00:00, run_after=2023-07-12T00:00:00+00:00
+[2023-07-14 02:45:57,980] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.219 seconds
+[2023-07-14 02:46:28,453] {processor.py:153} INFO - Started process (PID=14298) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:46:28,454] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:46:28,455] {logging_mixin.py:115} INFO - [2023-07-14 02:46:28,455] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:46:28,483] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:46:28,570] {logging_mixin.py:115} INFO - [2023-07-14 02:46:28,569] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:46:28,620] {logging_mixin.py:115} INFO - [2023-07-14 02:46:28,620] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-13T00:00:00+00:00, run_after=2023-07-14T00:00:00+00:00
+[2023-07-14 02:46:28,648] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.206 seconds
+[2023-07-14 02:46:58,983] {processor.py:153} INFO - Started process (PID=14356) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:46:58,984] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:46:58,985] {logging_mixin.py:115} INFO - [2023-07-14 02:46:58,985] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:46:59,003] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:46:59,051] {logging_mixin.py:115} INFO - [2023-07-14 02:46:59,051] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:46:59,082] {logging_mixin.py:115} INFO - [2023-07-14 02:46:59,081] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:46:59,097] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.120 seconds
+[2023-07-14 02:47:29,718] {processor.py:153} INFO - Started process (PID=14424) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:47:29,719] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:47:29,720] {logging_mixin.py:115} INFO - [2023-07-14 02:47:29,720] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:47:29,734] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:47:29,779] {logging_mixin.py:115} INFO - [2023-07-14 02:47:29,779] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:47:29,809] {logging_mixin.py:115} INFO - [2023-07-14 02:47:29,809] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:47:29,824] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.111 seconds
+[2023-07-14 02:48:00,656] {processor.py:153} INFO - Started process (PID=14489) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:48:00,657] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:48:00,657] {logging_mixin.py:115} INFO - [2023-07-14 02:48:00,657] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:48:00,672] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:48:00,722] {logging_mixin.py:115} INFO - [2023-07-14 02:48:00,721] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:48:00,751] {logging_mixin.py:115} INFO - [2023-07-14 02:48:00,751] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:48:00,769] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.116 seconds
+[2023-07-14 02:48:31,555] {processor.py:153} INFO - Started process (PID=14545) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:48:31,556] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:48:31,556] {logging_mixin.py:115} INFO - [2023-07-14 02:48:31,556] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:48:31,569] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:48:31,616] {logging_mixin.py:115} INFO - [2023-07-14 02:48:31,615] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:48:31,645] {logging_mixin.py:115} INFO - [2023-07-14 02:48:31,645] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:48:31,660] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.108 seconds
+[2023-07-14 02:49:02,298] {processor.py:153} INFO - Started process (PID=14602) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:49:02,298] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:49:02,299] {logging_mixin.py:115} INFO - [2023-07-14 02:49:02,299] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:49:02,319] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:49:02,393] {logging_mixin.py:115} INFO - [2023-07-14 02:49:02,393] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:49:02,438] {logging_mixin.py:115} INFO - [2023-07-14 02:49:02,438] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:49:02,459] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.166 seconds
+[2023-07-14 02:49:33,194] {processor.py:153} INFO - Started process (PID=14668) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:49:33,195] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:49:33,195] {logging_mixin.py:115} INFO - [2023-07-14 02:49:33,195] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:49:33,208] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:49:33,247] {logging_mixin.py:115} INFO - [2023-07-14 02:49:33,247] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:49:33,273] {logging_mixin.py:115} INFO - [2023-07-14 02:49:33,272] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:49:33,286] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.095 seconds
+[2023-07-14 02:50:03,375] {processor.py:153} INFO - Started process (PID=14725) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:50:03,376] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:50:03,376] {logging_mixin.py:115} INFO - [2023-07-14 02:50:03,376] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:50:03,387] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:50:03,427] {logging_mixin.py:115} INFO - [2023-07-14 02:50:03,427] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:50:03,453] {logging_mixin.py:115} INFO - [2023-07-14 02:50:03,453] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:50:03,468] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.095 seconds
+[2023-07-14 02:50:33,985] {processor.py:153} INFO - Started process (PID=14792) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:50:33,986] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:50:33,987] {logging_mixin.py:115} INFO - [2023-07-14 02:50:33,987] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:50:33,999] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:50:34,047] {logging_mixin.py:115} INFO - [2023-07-14 02:50:34,047] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:50:34,075] {logging_mixin.py:115} INFO - [2023-07-14 02:50:34,074] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:50:34,088] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.107 seconds
+[2023-07-14 02:51:04,573] {processor.py:153} INFO - Started process (PID=14848) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:51:04,574] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:51:04,575] {logging_mixin.py:115} INFO - [2023-07-14 02:51:04,574] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:51:04,595] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:51:04,652] {logging_mixin.py:115} INFO - [2023-07-14 02:51:04,652] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:51:04,685] {logging_mixin.py:115} INFO - [2023-07-14 02:51:04,685] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:51:04,702] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.135 seconds
+[2023-07-14 02:51:35,053] {processor.py:153} INFO - Started process (PID=14912) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:51:35,054] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:51:35,055] {logging_mixin.py:115} INFO - [2023-07-14 02:51:35,054] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:51:35,069] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:51:35,137] {logging_mixin.py:115} INFO - [2023-07-14 02:51:35,137] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:51:35,173] {logging_mixin.py:115} INFO - [2023-07-14 02:51:35,173] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:51:35,193] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.144 seconds
+[2023-07-14 02:52:06,023] {processor.py:153} INFO - Started process (PID=14976) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:52:06,026] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:52:06,027] {logging_mixin.py:115} INFO - [2023-07-14 02:52:06,027] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:52:06,053] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:52:06,171] {logging_mixin.py:115} INFO - [2023-07-14 02:52:06,171] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:52:06,207] {logging_mixin.py:115} INFO - [2023-07-14 02:52:06,207] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:52:06,224] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.214 seconds
+[2023-07-14 02:52:36,905] {processor.py:153} INFO - Started process (PID=15035) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:52:36,906] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:52:36,907] {logging_mixin.py:115} INFO - [2023-07-14 02:52:36,907] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:52:36,922] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:52:36,964] {logging_mixin.py:115} INFO - [2023-07-14 02:52:36,964] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:52:36,996] {logging_mixin.py:115} INFO - [2023-07-14 02:52:36,995] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:52:37,012] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.113 seconds
+[2023-07-14 02:53:07,501] {processor.py:153} INFO - Started process (PID=15099) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:53:07,502] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:53:07,503] {logging_mixin.py:115} INFO - [2023-07-14 02:53:07,503] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:53:07,526] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:53:07,622] {logging_mixin.py:115} INFO - [2023-07-14 02:53:07,621] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:53:07,664] {logging_mixin.py:115} INFO - [2023-07-14 02:53:07,664] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:53:07,679] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.184 seconds
+[2023-07-14 02:53:37,735] {processor.py:153} INFO - Started process (PID=15156) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:53:37,736] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:53:37,736] {logging_mixin.py:115} INFO - [2023-07-14 02:53:37,736] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:53:37,749] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:53:37,792] {logging_mixin.py:115} INFO - [2023-07-14 02:53:37,792] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:53:37,818] {logging_mixin.py:115} INFO - [2023-07-14 02:53:37,818] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:53:37,833] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.100 seconds
+[2023-07-14 02:53:41,021] {processor.py:153} INFO - Started process (PID=15161) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:53:41,023] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:53:41,024] {logging_mixin.py:115} INFO - [2023-07-14 02:53:41,024] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:53:41,046] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:53:41,211] {logging_mixin.py:115} INFO - [2023-07-14 02:53:41,211] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:53:41,243] {logging_mixin.py:115} INFO - [2023-07-14 02:53:41,243] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:53:41,269] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.253 seconds
+[2023-07-14 02:54:11,490] {processor.py:153} INFO - Started process (PID=15225) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:54:11,491] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:54:11,492] {logging_mixin.py:115} INFO - [2023-07-14 02:54:11,492] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:54:11,513] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:54:11,594] {logging_mixin.py:115} INFO - [2023-07-14 02:54:11,594] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:54:11,648] {logging_mixin.py:115} INFO - [2023-07-14 02:54:11,648] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:54:11,690] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.207 seconds
+[2023-07-14 02:54:41,866] {processor.py:153} INFO - Started process (PID=15284) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:54:41,867] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:54:41,868] {logging_mixin.py:115} INFO - [2023-07-14 02:54:41,867] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:54:41,880] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:54:41,927] {logging_mixin.py:115} INFO - [2023-07-14 02:54:41,927] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:54:41,956] {logging_mixin.py:115} INFO - [2023-07-14 02:54:41,956] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:54:41,970] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.108 seconds
+[2023-07-14 02:55:12,549] {processor.py:153} INFO - Started process (PID=15341) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:55:12,551] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:55:12,552] {logging_mixin.py:115} INFO - [2023-07-14 02:55:12,552] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:55:12,571] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:55:12,641] {logging_mixin.py:115} INFO - [2023-07-14 02:55:12,641] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:55:12,684] {logging_mixin.py:115} INFO - [2023-07-14 02:55:12,684] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:55:12,705] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.162 seconds
+[2023-07-14 02:55:42,850] {processor.py:153} INFO - Started process (PID=15408) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:55:42,851] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:55:42,852] {logging_mixin.py:115} INFO - [2023-07-14 02:55:42,852] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:55:42,893] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:55:43,009] {logging_mixin.py:115} INFO - [2023-07-14 02:55:43,008] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:55:43,110] {logging_mixin.py:115} INFO - [2023-07-14 02:55:43,110] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:55:43,140] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.295 seconds
+[2023-07-14 02:56:13,747] {processor.py:153} INFO - Started process (PID=15465) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:56:13,747] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:56:13,748] {logging_mixin.py:115} INFO - [2023-07-14 02:56:13,747] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:56:13,761] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:56:13,813] {logging_mixin.py:115} INFO - [2023-07-14 02:56:13,813] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:56:13,846] {logging_mixin.py:115} INFO - [2023-07-14 02:56:13,846] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:56:13,861] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.118 seconds
+[2023-07-14 02:56:43,919] {processor.py:153} INFO - Started process (PID=15526) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:56:43,920] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:56:43,920] {logging_mixin.py:115} INFO - [2023-07-14 02:56:43,920] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:56:43,936] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:56:44,012] {logging_mixin.py:115} INFO - [2023-07-14 02:56:44,012] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:56:44,064] {logging_mixin.py:115} INFO - [2023-07-14 02:56:44,063] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:56:44,084] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.170 seconds
+[2023-07-14 02:57:14,120] {processor.py:153} INFO - Started process (PID=15581) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:57:14,121] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:57:14,121] {logging_mixin.py:115} INFO - [2023-07-14 02:57:14,121] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:57:14,224] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:57:14,471] {logging_mixin.py:115} INFO - [2023-07-14 02:57:14,471] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:57:14,571] {logging_mixin.py:115} INFO - [2023-07-14 02:57:14,571] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:57:14,608] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.494 seconds
+[2023-07-14 02:57:44,741] {processor.py:153} INFO - Started process (PID=15646) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:57:44,743] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:57:44,743] {logging_mixin.py:115} INFO - [2023-07-14 02:57:44,743] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:57:44,758] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:57:44,816] {logging_mixin.py:115} INFO - [2023-07-14 02:57:44,816] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:57:44,857] {logging_mixin.py:115} INFO - [2023-07-14 02:57:44,857] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:57:44,909] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.173 seconds
+[2023-07-14 02:58:15,204] {processor.py:153} INFO - Started process (PID=15703) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:58:15,206] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:58:15,206] {logging_mixin.py:115} INFO - [2023-07-14 02:58:15,206] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:58:15,221] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:58:15,272] {logging_mixin.py:115} INFO - [2023-07-14 02:58:15,272] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:58:15,311] {logging_mixin.py:115} INFO - [2023-07-14 02:58:15,311] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:58:15,328] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.128 seconds
+[2023-07-14 02:58:45,451] {processor.py:153} INFO - Started process (PID=15770) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:58:45,452] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:58:45,453] {logging_mixin.py:115} INFO - [2023-07-14 02:58:45,453] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:58:45,478] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:58:45,541] {logging_mixin.py:115} INFO - [2023-07-14 02:58:45,541] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:58:45,577] {logging_mixin.py:115} INFO - [2023-07-14 02:58:45,577] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:58:45,598] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.150 seconds
+[2023-07-14 02:59:16,001] {processor.py:153} INFO - Started process (PID=15826) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:59:16,003] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:59:16,004] {logging_mixin.py:115} INFO - [2023-07-14 02:59:16,004] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:59:16,103] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:59:16,346] {logging_mixin.py:115} INFO - [2023-07-14 02:59:16,346] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:59:16,486] {logging_mixin.py:115} INFO - [2023-07-14 02:59:16,486] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:59:16,559] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.567 seconds
+[2023-07-14 02:59:47,273] {processor.py:153} INFO - Started process (PID=15891) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:59:47,273] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 02:59:47,274] {logging_mixin.py:115} INFO - [2023-07-14 02:59:47,274] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:59:47,287] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 02:59:47,340] {logging_mixin.py:115} INFO - [2023-07-14 02:59:47,340] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 02:59:47,374] {logging_mixin.py:115} INFO - [2023-07-14 02:59:47,374] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 02:59:47,394] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.125 seconds
+[2023-07-14 03:00:17,601] {processor.py:153} INFO - Started process (PID=15947) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:00:17,602] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:00:17,605] {logging_mixin.py:115} INFO - [2023-07-14 03:00:17,605] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:00:17,625] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:00:17,680] {logging_mixin.py:115} INFO - [2023-07-14 03:00:17,679] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:00:17,713] {logging_mixin.py:115} INFO - [2023-07-14 03:00:17,713] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:00:17,738] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.142 seconds
+[2023-07-14 03:00:48,778] {processor.py:153} INFO - Started process (PID=16014) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:00:48,788] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:00:48,789] {logging_mixin.py:115} INFO - [2023-07-14 03:00:48,789] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:00:48,920] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:00:49,088] {logging_mixin.py:115} INFO - [2023-07-14 03:00:49,088] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:00:49,154] {logging_mixin.py:115} INFO - [2023-07-14 03:00:49,154] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:00:49,196] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.475 seconds
+[2023-07-14 03:01:19,605] {processor.py:153} INFO - Started process (PID=16071) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:01:19,607] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:01:19,610] {logging_mixin.py:115} INFO - [2023-07-14 03:01:19,610] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:01:19,639] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:01:19,746] {logging_mixin.py:115} INFO - [2023-07-14 03:01:19,745] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:01:19,811] {logging_mixin.py:115} INFO - [2023-07-14 03:01:19,810] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:01:19,849] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.253 seconds
+[2023-07-14 03:01:50,202] {processor.py:153} INFO - Started process (PID=16128) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:01:50,203] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:01:50,203] {logging_mixin.py:115} INFO - [2023-07-14 03:01:50,203] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:01:50,218] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:01:50,265] {logging_mixin.py:115} INFO - [2023-07-14 03:01:50,265] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:01:50,297] {logging_mixin.py:115} INFO - [2023-07-14 03:01:50,296] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:01:50,313] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.114 seconds
+[2023-07-14 03:02:21,064] {processor.py:153} INFO - Started process (PID=16194) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:02:21,065] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:02:21,066] {logging_mixin.py:115} INFO - [2023-07-14 03:02:21,066] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:02:21,086] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:02:21,149] {logging_mixin.py:115} INFO - [2023-07-14 03:02:21,148] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:02:21,180] {logging_mixin.py:115} INFO - [2023-07-14 03:02:21,180] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:02:21,196] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.135 seconds
+[2023-07-14 03:02:51,250] {processor.py:153} INFO - Started process (PID=16250) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:02:51,251] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:02:51,251] {logging_mixin.py:115} INFO - [2023-07-14 03:02:51,251] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:02:51,265] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:02:51,329] {logging_mixin.py:115} INFO - [2023-07-14 03:02:51,329] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:02:51,371] {logging_mixin.py:115} INFO - [2023-07-14 03:02:51,371] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:02:51,387] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.141 seconds
+[2023-07-14 03:03:21,553] {processor.py:153} INFO - Started process (PID=16318) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:03:21,554] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:03:21,555] {logging_mixin.py:115} INFO - [2023-07-14 03:03:21,555] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:03:21,636] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:03:21,801] {logging_mixin.py:115} INFO - [2023-07-14 03:03:21,801] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:03:21,928] {logging_mixin.py:115} INFO - [2023-07-14 03:03:21,927] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:03:21,976] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.454 seconds
+[2023-07-14 03:03:52,125] {processor.py:153} INFO - Started process (PID=16375) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:03:52,126] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:03:52,128] {logging_mixin.py:115} INFO - [2023-07-14 03:03:52,127] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:03:52,151] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:03:52,231] {logging_mixin.py:115} INFO - [2023-07-14 03:03:52,231] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:03:52,286] {logging_mixin.py:115} INFO - [2023-07-14 03:03:52,286] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:03:52,308] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.187 seconds
+[2023-07-14 03:04:22,978] {processor.py:153} INFO - Started process (PID=16441) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:04:22,980] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:04:22,982] {logging_mixin.py:115} INFO - [2023-07-14 03:04:22,982] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:04:23,003] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:04:23,067] {logging_mixin.py:115} INFO - [2023-07-14 03:04:23,066] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:04:23,124] {logging_mixin.py:115} INFO - [2023-07-14 03:04:23,123] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:04:23,151] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.179 seconds
+[2023-07-14 03:04:54,053] {processor.py:153} INFO - Started process (PID=16497) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:04:54,054] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:04:54,056] {logging_mixin.py:115} INFO - [2023-07-14 03:04:54,055] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:04:54,076] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:04:54,146] {logging_mixin.py:115} INFO - [2023-07-14 03:04:54,145] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:04:54,180] {logging_mixin.py:115} INFO - [2023-07-14 03:04:54,180] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:04:54,195] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.145 seconds
+[2023-07-14 03:05:24,291] {processor.py:153} INFO - Started process (PID=16562) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:05:24,292] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:05:24,294] {logging_mixin.py:115} INFO - [2023-07-14 03:05:24,294] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:05:24,311] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:05:24,376] {logging_mixin.py:115} INFO - [2023-07-14 03:05:24,376] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:05:24,409] {logging_mixin.py:115} INFO - [2023-07-14 03:05:24,409] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:05:24,425] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.139 seconds
+[2023-07-14 03:05:54,825] {processor.py:153} INFO - Started process (PID=16618) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:05:54,826] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:05:54,827] {logging_mixin.py:115} INFO - [2023-07-14 03:05:54,827] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:05:54,839] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:05:54,883] {logging_mixin.py:115} INFO - [2023-07-14 03:05:54,883] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:05:54,912] {logging_mixin.py:115} INFO - [2023-07-14 03:05:54,912] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:05:54,928] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.107 seconds
+[2023-07-14 03:06:25,019] {processor.py:153} INFO - Started process (PID=16683) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:06:25,020] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:06:25,021] {logging_mixin.py:115} INFO - [2023-07-14 03:06:25,021] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:06:25,037] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:06:25,084] {logging_mixin.py:115} INFO - [2023-07-14 03:06:25,084] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:06:25,120] {logging_mixin.py:115} INFO - [2023-07-14 03:06:25,120] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:06:25,143] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.128 seconds
+[2023-07-14 03:06:56,031] {processor.py:153} INFO - Started process (PID=16740) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:06:56,032] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:06:56,033] {logging_mixin.py:115} INFO - [2023-07-14 03:06:56,033] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:06:56,053] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:06:56,111] {logging_mixin.py:115} INFO - [2023-07-14 03:06:56,111] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:06:56,153] {logging_mixin.py:115} INFO - [2023-07-14 03:06:56,153] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:06:56,181] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.155 seconds
+[2023-07-14 03:07:26,391] {processor.py:153} INFO - Started process (PID=16808) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:07:26,391] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:07:26,393] {logging_mixin.py:115} INFO - [2023-07-14 03:07:26,392] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:07:26,412] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:07:26,486] {logging_mixin.py:115} INFO - [2023-07-14 03:07:26,486] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:07:26,530] {logging_mixin.py:115} INFO - [2023-07-14 03:07:26,529] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:07:26,551] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.165 seconds
+[2023-07-14 03:07:56,620] {processor.py:153} INFO - Started process (PID=16868) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:07:56,620] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:07:56,621] {logging_mixin.py:115} INFO - [2023-07-14 03:07:56,621] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:07:56,632] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:07:56,671] {logging_mixin.py:115} INFO - [2023-07-14 03:07:56,671] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:07:56,698] {logging_mixin.py:115} INFO - [2023-07-14 03:07:56,698] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:07:56,715] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.099 seconds
+[2023-07-14 03:08:27,035] {processor.py:153} INFO - Started process (PID=16925) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:08:27,036] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:08:27,037] {logging_mixin.py:115} INFO - [2023-07-14 03:08:27,037] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:08:27,052] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:08:27,119] {logging_mixin.py:115} INFO - [2023-07-14 03:08:27,119] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:08:27,153] {logging_mixin.py:115} INFO - [2023-07-14 03:08:27,152] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:08:27,170] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.139 seconds
+[2023-07-14 03:08:57,561] {processor.py:153} INFO - Started process (PID=16988) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:08:57,563] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:08:57,564] {logging_mixin.py:115} INFO - [2023-07-14 03:08:57,564] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:08:57,602] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:08:57,715] {logging_mixin.py:115} INFO - [2023-07-14 03:08:57,715] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:08:57,768] {logging_mixin.py:115} INFO - [2023-07-14 03:08:57,768] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:08:57,793] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.237 seconds
+[2023-07-14 03:09:27,862] {processor.py:153} INFO - Started process (PID=17047) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:09:27,863] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:09:27,864] {logging_mixin.py:115} INFO - [2023-07-14 03:09:27,864] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:09:27,881] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:09:27,935] {logging_mixin.py:115} INFO - [2023-07-14 03:09:27,934] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:09:27,972] {logging_mixin.py:115} INFO - [2023-07-14 03:09:27,972] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:09:27,992] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.133 seconds
+[2023-07-14 03:09:58,902] {processor.py:153} INFO - Started process (PID=17104) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:09:58,904] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:09:58,906] {logging_mixin.py:115} INFO - [2023-07-14 03:09:58,905] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:09:58,921] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:09:58,968] {logging_mixin.py:115} INFO - [2023-07-14 03:09:58,968] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:09:58,999] {logging_mixin.py:115} INFO - [2023-07-14 03:09:58,998] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:09:59,015] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.117 seconds
+[2023-07-14 03:10:29,213] {processor.py:153} INFO - Started process (PID=17170) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:10:29,214] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:10:29,215] {logging_mixin.py:115} INFO - [2023-07-14 03:10:29,214] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:10:29,227] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:10:29,270] {logging_mixin.py:115} INFO - [2023-07-14 03:10:29,270] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:10:29,300] {logging_mixin.py:115} INFO - [2023-07-14 03:10:29,299] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:10:29,316] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.106 seconds
+[2023-07-14 03:10:59,789] {processor.py:153} INFO - Started process (PID=17228) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:10:59,790] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:10:59,790] {logging_mixin.py:115} INFO - [2023-07-14 03:10:59,790] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:10:59,803] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:10:59,852] {logging_mixin.py:115} INFO - [2023-07-14 03:10:59,851] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:10:59,893] {logging_mixin.py:115} INFO - [2023-07-14 03:10:59,893] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:10:59,907] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.122 seconds
+[2023-07-14 03:11:30,666] {processor.py:153} INFO - Started process (PID=17293) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:11:30,667] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:11:30,668] {logging_mixin.py:115} INFO - [2023-07-14 03:11:30,668] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:11:30,681] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:11:30,741] {logging_mixin.py:115} INFO - [2023-07-14 03:11:30,741] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:11:30,774] {logging_mixin.py:115} INFO - [2023-07-14 03:11:30,774] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:11:30,791] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.128 seconds
+[2023-07-14 03:12:01,710] {processor.py:153} INFO - Started process (PID=17359) to work on /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:12:01,710] {processor.py:641} INFO - Processing file /opt/airflow/dags/first_sensor.py for tasks to queue
+[2023-07-14 03:12:01,711] {logging_mixin.py:115} INFO - [2023-07-14 03:12:01,711] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:12:01,724] {processor.py:651} INFO - DAG(s) dict_keys(['data_sensor_id']) retrieved from /opt/airflow/dags/first_sensor.py
+[2023-07-14 03:12:01,769] {logging_mixin.py:115} INFO - [2023-07-14 03:12:01,769] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-14 03:12:01,803] {logging_mixin.py:115} INFO - [2023-07-14 03:12:01,803] {dag.py:2972} INFO - Setting next_dagrun for data_sensor_id to 2023-07-14T00:00:00+00:00, run_after=2023-07-15T00:00:00+00:00
+[2023-07-14 03:12:01,818] {processor.py:161} INFO - Processing /opt/airflow/dags/first_sensor.py took 0.112 seconds

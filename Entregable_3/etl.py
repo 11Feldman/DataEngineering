@@ -5,7 +5,6 @@ import redshift_connector as r
 import pandas as pd
 from datetime import datetime as dt
 
-
 def extract_data ():
 
     response = requests.get(URL['characters'])

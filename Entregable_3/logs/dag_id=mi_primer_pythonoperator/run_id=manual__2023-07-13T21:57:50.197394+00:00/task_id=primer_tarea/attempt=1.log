@@ -1,0 +1,24 @@
+[2023-07-13 21:57:51,616] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: mi_primer_pythonoperator.primer_tarea manual__2023-07-13T21:57:50.197394+00:00 [queued]>
+[2023-07-13 21:57:51,632] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: mi_primer_pythonoperator.primer_tarea manual__2023-07-13T21:57:50.197394+00:00 [queued]>
+[2023-07-13 21:57:51,632] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-13 21:57:51,632] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-07-13 21:57:51,632] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-13 21:57:51,657] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): primer_tarea> on 2023-07-13 21:57:50.197394+00:00
+[2023-07-13 21:57:51,664] {standard_task_runner.py:52} INFO - Started process 1219 to run task
+[2023-07-13 21:57:51,668] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'mi_primer_pythonoperator', 'primer_tarea', 'manual__2023-07-13T21:57:50.197394+00:00', '--job-id', '657', '--raw', '--subdir', 'DAGS_FOLDER/mi_primer_dag_pythonoperator.py', '--cfg-path', '/tmp/tmphw2yqxtv', '--error-file', '/tmp/tmppiqpmwgf']
+[2023-07-13 21:57:51,669] {standard_task_runner.py:80} INFO - Job 657: Subtask primer_tarea
+[2023-07-13 21:57:51,752] {task_command.py:371} INFO - Running <TaskInstance: mi_primer_pythonoperator.primer_tarea manual__2023-07-13T21:57:50.197394+00:00 [running]> on host 7a1b6d75866e
+[2023-07-13 21:57:51,849] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Ariel Feldman
+AIRFLOW_CTX_DAG_ID=mi_primer_pythonoperator
+AIRFLOW_CTX_TASK_ID=primer_tarea
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-13T21:57:50.197394+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-13T21:57:50.197394+00:00
+[2023-07-13 21:57:51,850] {logging_mixin.py:115} INFO - hola perro
+[2023-07-13 21:57:51,850] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-13 21:57:51,867] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=mi_primer_pythonoperator, task_id=primer_tarea, execution_date=20230713T215750, start_date=20230713T215751, end_date=20230713T215751
+[2023-07-13 21:57:51,920] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-13 21:57:51,958] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

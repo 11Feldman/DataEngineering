@@ -7,12 +7,24 @@ node_modules
 # Ignora todos los archivos de texto
 *.txt
 *.json
-config.py*
+
+# Ignoro subida de archivo especifico
+Entregable_3/config.py*
+Entregable_3/etl.py*
+primer_dag.py*
+primer_sensor.py*
+segundo_dag.py*
+taskgroups.py*
+test_context.py*
+test_pythonoperator.py*
+
+# Ignora subidas de carpetas
 Entregable_2/notebook*
 Entregable_1/__pycache__*
 Entregable_2/__pycache__*
+Entregable_3/__pycache__*
 Entregable_2/etl_v2.py*
-
+Entregable_3/notebook*
 # Ignora los archivos relacionados a API keys
 .env
 
