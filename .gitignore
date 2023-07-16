@@ -8,8 +8,7 @@ node_modules
 *.json
 
 # Ignoro subida de archivo especifico
-Entregable_1/config.py*
-Entregable_3/config.py*
+config.*
 Entregable_3/etl.py*
 primer_dag.py*
 primer_sensor.py*
@@ -30,7 +29,6 @@ Entregable_3/logs/dag_id=prueba_task_groups*
 Entregable_3/logs/dag_id=probando_de_manera_propia*
 Entregable_3/logs/dag_id=data_sensor_id*
 Entregable_3/logs/dag_id=probando_conexion*
-
 
 # Ignora los archivos relacionados a API keys
 .env
