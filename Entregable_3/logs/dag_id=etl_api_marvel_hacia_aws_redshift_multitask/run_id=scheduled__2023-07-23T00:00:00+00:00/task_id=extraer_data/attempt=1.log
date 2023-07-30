@@ -1,0 +1,112 @@
+[2023-07-24 01:51:06,897] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.extraer_data scheduled__2023-07-23T00:00:00+00:00 [queued]>
+[2023-07-24 01:51:06,924] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.extraer_data scheduled__2023-07-23T00:00:00+00:00 [queued]>
+[2023-07-24 01:51:06,925] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-24 01:51:06,926] {taskinstance.py:1377} INFO - Starting attempt 1 of 11
+[2023-07-24 01:51:06,926] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-24 01:51:06,970] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): extraer_data> on 2023-07-23 00:00:00+00:00
+[2023-07-24 01:51:06,985] {standard_task_runner.py:52} INFO - Started process 72 to run task
+[2023-07-24 01:51:06,990] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'etl_api_marvel_hacia_aws_redshift_multitask', 'extraer_data', 'scheduled__2023-07-23T00:00:00+00:00', '--job-id', '911', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_multiple_tasks.py', '--cfg-path', '/tmp/tmp84guck9e', '--error-file', '/tmp/tmpm95gv818']
+[2023-07-24 01:51:07,008] {standard_task_runner.py:80} INFO - Job 911: Subtask extraer_data
+[2023-07-24 01:51:07,216] {task_command.py:371} INFO - Running <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.extraer_data scheduled__2023-07-23T00:00:00+00:00 [running]> on host 611e32346b42
+[2023-07-24 01:51:07,501] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=arielmfeldman.af@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Ariel Feldman
+AIRFLOW_CTX_DAG_ID=etl_api_marvel_hacia_aws_redshift_multitask
+AIRFLOW_CTX_TASK_ID=extraer_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-23T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-23T00:00:00+00:00
+[2023-07-24 01:51:08,774] {logging_mixin.py:115} INFO - No existe el archivo
+[2023-07-24 01:51:08,774] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_etl_multiple_tasks.py", line 68, in extract_data
+    data=lista
+  File "/opt/airflow/dags/dag_etl_multiple_tasks.py", line 21, in guardar_archivo
+    with open(ruta_archivo,'w') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/data/compania1/data_character.json'
+[2023-07-24 01:51:08,801] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=etl_api_marvel_hacia_aws_redshift_multitask, task_id=extraer_data, execution_date=20230723T000000, start_date=20230724T015106, end_date=20230724T015108
+[2023-07-24 01:51:08,874] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/email.py:119: PendingDeprecationWarning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2023-07-24 01:51:08,875] {configuration.py:552} WARNING - section/key [smtp/smtp_user] not found in config
+[2023-07-24 01:51:08,876] {email.py:228} INFO - Email alerting: attempt 1
+[2023-07-24 01:51:08,899] {configuration.py:552} WARNING - section/key [smtp/smtp_user] not found in config
+[2023-07-24 01:51:08,899] {email.py:228} INFO - Email alerting: attempt 1
+[2023-07-24 01:51:08,900] {taskinstance.py:1964} ERROR - Failed to send email to: ['arielmfeldman.af@gmail.com']
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1471, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1618, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1679, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_etl_multiple_tasks.py", line 68, in extract_data
+    data=lista
+  File "/opt/airflow/dags/dag_etl_multiple_tasks.py", line 21, in guardar_archivo
+    with open(ruta_archivo,'w') as file:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/data/compania1/data_character.json'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2346, in email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 71, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 119, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 230, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 264, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1962, in handle_failure
+    self.email_alert(error, task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2348, in email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 71, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 119, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 230, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 264, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+[2023-07-24 01:51:08,975] {standard_task_runner.py:97} ERROR - Failed to execute job 911 for task extraer_data ([Errno 2] No such file or directory: '/opt/airflow/data/compania1/data_character.json'; 72)
+[2023-07-24 01:51:09,017] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-07-24 01:51:09,145] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

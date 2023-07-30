@@ -208,7 +208,7 @@ with DAG(
     ),
     tags=['conexion_con_aws_redshift_multitask'],
     schedule_interval='@daily',
-    catchup=False
+    catchup=False # Si ponemos True corre al momento de subir el dag
 ) as dag:
     
     # Tareas
