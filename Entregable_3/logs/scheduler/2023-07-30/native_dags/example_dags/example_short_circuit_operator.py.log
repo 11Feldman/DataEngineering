@@ -614,3 +614,73 @@
 [2023-07-30 21:16:39,602] {logging_mixin.py:115} INFO - [2023-07-30 21:16:39,601] {dag.py:2420} INFO - Sync 1 DAGs
 [2023-07-30 21:16:39,687] {logging_mixin.py:115} INFO - [2023-07-30 21:16:39,687] {dag.py:2972} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-07-29T21:16:39.686677+00:00, run_after=2023-07-30T21:16:39.686677+00:00
 [2023-07-30 21:16:39,731] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 1.030 seconds
+[2023-07-30 21:17:09,914] {processor.py:153} INFO - Started process (PID=1280) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:17:09,917] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-07-30 21:17:09,918] {logging_mixin.py:115} INFO - [2023-07-30 21:17:09,917] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:17:09,996] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:17:10,325] {logging_mixin.py:115} INFO - [2023-07-30 21:17:10,325] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-30 21:17:10,426] {logging_mixin.py:115} INFO - [2023-07-30 21:17:10,425] {dag.py:2972} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-07-29T21:17:10.425580+00:00, run_after=2023-07-30T21:17:10.425580+00:00
+[2023-07-30 21:17:10,457] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.548 seconds
+[2023-07-30 21:17:41,035] {processor.py:153} INFO - Started process (PID=1340) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:17:41,039] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-07-30 21:17:41,046] {logging_mixin.py:115} INFO - [2023-07-30 21:17:41,046] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:17:41,081] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:17:41,543] {logging_mixin.py:115} INFO - [2023-07-30 21:17:41,543] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-30 21:17:41,585] {logging_mixin.py:115} INFO - [2023-07-30 21:17:41,585] {dag.py:2972} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-07-29T21:17:41.585278+00:00, run_after=2023-07-30T21:17:41.585278+00:00
+[2023-07-30 21:17:41,615] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.585 seconds
+[2023-07-30 21:18:12,431] {processor.py:153} INFO - Started process (PID=1395) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:18:12,432] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-07-30 21:18:12,433] {logging_mixin.py:115} INFO - [2023-07-30 21:18:12,433] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:18:12,455] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:18:12,938] {logging_mixin.py:115} INFO - [2023-07-30 21:18:12,938] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-30 21:18:13,036] {logging_mixin.py:115} INFO - [2023-07-30 21:18:13,033] {dag.py:2972} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-07-29T21:18:13.033623+00:00, run_after=2023-07-30T21:18:13.033623+00:00
+[2023-07-30 21:18:13,102] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.677 seconds
+[2023-07-30 21:18:44,983] {processor.py:153} INFO - Started process (PID=1457) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:18:44,984] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-07-30 21:18:44,985] {logging_mixin.py:115} INFO - [2023-07-30 21:18:44,985] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:18:45,000] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:18:45,218] {logging_mixin.py:115} INFO - [2023-07-30 21:18:45,218] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-30 21:18:45,275] {logging_mixin.py:115} INFO - [2023-07-30 21:18:45,275] {dag.py:2972} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-07-29T21:18:45.274885+00:00, run_after=2023-07-30T21:18:45.274885+00:00
+[2023-07-30 21:18:45,296] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.316 seconds
+[2023-07-30 21:19:16,770] {processor.py:153} INFO - Started process (PID=1519) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:19:16,771] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-07-30 21:19:16,772] {logging_mixin.py:115} INFO - [2023-07-30 21:19:16,772] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:19:16,838] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:19:18,172] {logging_mixin.py:115} INFO - [2023-07-30 21:19:18,171] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-30 21:19:18,410] {logging_mixin.py:115} INFO - [2023-07-30 21:19:18,409] {dag.py:2972} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-07-29T21:19:18.409623+00:00, run_after=2023-07-30T21:19:18.409623+00:00
+[2023-07-30 21:19:18,465] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 1.700 seconds
+[2023-07-30 21:19:48,670] {processor.py:153} INFO - Started process (PID=1581) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:19:48,677] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-07-30 21:19:48,678] {logging_mixin.py:115} INFO - [2023-07-30 21:19:48,677] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:19:48,718] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:19:49,401] {logging_mixin.py:115} INFO - [2023-07-30 21:19:49,401] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-30 21:19:49,538] {logging_mixin.py:115} INFO - [2023-07-30 21:19:49,537] {dag.py:2972} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-07-29T21:19:49.537589+00:00, run_after=2023-07-30T21:19:49.537589+00:00
+[2023-07-30 21:19:49,591] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.938 seconds
+[2023-07-30 21:20:20,198] {processor.py:153} INFO - Started process (PID=1643) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:20:20,204] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-07-30 21:20:20,208] {logging_mixin.py:115} INFO - [2023-07-30 21:20:20,207] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:20:20,256] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:20:20,694] {logging_mixin.py:115} INFO - [2023-07-30 21:20:20,694] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-30 21:20:20,739] {logging_mixin.py:115} INFO - [2023-07-30 21:20:20,739] {dag.py:2972} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-07-29T21:20:20.739133+00:00, run_after=2023-07-30T21:20:20.739133+00:00
+[2023-07-30 21:20:20,786] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.596 seconds
+[2023-07-30 21:20:51,411] {processor.py:153} INFO - Started process (PID=1704) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:20:51,412] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-07-30 21:20:51,412] {logging_mixin.py:115} INFO - [2023-07-30 21:20:51,412] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:20:51,435] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:20:51,657] {logging_mixin.py:115} INFO - [2023-07-30 21:20:51,656] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-30 21:20:51,693] {logging_mixin.py:115} INFO - [2023-07-30 21:20:51,693] {dag.py:2972} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-07-29T21:20:51.692904+00:00, run_after=2023-07-30T21:20:51.692904+00:00
+[2023-07-30 21:20:51,713] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.305 seconds
+[2023-07-30 21:21:32,428] {processor.py:153} INFO - Started process (PID=1766) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:21:32,437] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-07-30 21:21:32,438] {logging_mixin.py:115} INFO - [2023-07-30 21:21:32,438] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:21:32,960] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:21:33,112] {logging_mixin.py:115} INFO - [2023-07-30 21:21:33,111] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-30 21:21:33,277] {logging_mixin.py:115} INFO - [2023-07-30 21:21:33,276] {dag.py:2972} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-07-29T21:21:33.276642+00:00, run_after=2023-07-30T21:21:33.276642+00:00
+[2023-07-30 21:21:33,385] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.965 seconds
+[2023-07-30 21:22:03,488] {processor.py:153} INFO - Started process (PID=1826) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:22:03,489] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-07-30 21:22:03,490] {logging_mixin.py:115} INFO - [2023-07-30 21:22:03,490] {dagbag.py:508} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:22:03,697] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-07-30 21:22:03,735] {logging_mixin.py:115} INFO - [2023-07-30 21:22:03,735] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-07-30 21:22:03,774] {logging_mixin.py:115} INFO - [2023-07-30 21:22:03,774] {dag.py:2972} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-07-29T21:22:03.774212+00:00, run_after=2023-07-30T21:22:03.774212+00:00
+[2023-07-30 21:22:03,806] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.323 seconds
