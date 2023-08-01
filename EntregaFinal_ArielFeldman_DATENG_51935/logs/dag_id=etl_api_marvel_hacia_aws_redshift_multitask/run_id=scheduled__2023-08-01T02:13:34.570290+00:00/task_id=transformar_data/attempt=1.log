@@ -1,0 +1,74 @@
+[2023-08-01 02:15:40,571] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.transformar_data scheduled__2023-08-01T02:13:34.570290+00:00 [queued]>
+[2023-08-01 02:15:40,583] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.transformar_data scheduled__2023-08-01T02:13:34.570290+00:00 [queued]>
+[2023-08-01 02:15:40,584] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 02:15:40,584] {taskinstance.py:1377} INFO - Starting attempt 1 of 11
+[2023-08-01 02:15:40,584] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 02:15:40,600] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): transformar_data> on 2023-08-01 02:13:34.570290+00:00
+[2023-08-01 02:15:40,607] {standard_task_runner.py:52} INFO - Started process 2696 to run task
+[2023-08-01 02:15:40,611] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'etl_api_marvel_hacia_aws_redshift_multitask', 'transformar_data', 'scheduled__2023-08-01T02:13:34.570290+00:00', '--job-id', '690', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_multiple_tasks.py', '--cfg-path', '/tmp/tmpzo5w3swn', '--error-file', '/tmp/tmp8geqnom_']
+[2023-08-01 02:15:40,613] {standard_task_runner.py:80} INFO - Job 690: Subtask transformar_data
+[2023-08-01 02:15:40,691] {task_command.py:371} INFO - Running <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.transformar_data scheduled__2023-08-01T02:13:34.570290+00:00 [running]> on host 24cbf2f01ed0
+[2023-08-01 02:15:40,782] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=arielmfeldman.af@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Ariel Feldman
+AIRFLOW_CTX_DAG_ID=etl_api_marvel_hacia_aws_redshift_multitask
+AIRFLOW_CTX_TASK_ID=transformar_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-01T02:13:34.570290+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-01T02:13:34.570290+00:00
+[2023-08-01 02:15:40,805] {logging_mixin.py:115} INFO - Columnas en tranform data:
+[2023-08-01 02:15:40,805] {logging_mixin.py:115} INFO -  Index(['id_character', 'nombre', 'descripcion', 'cantidad_de_comics',
+       'cantidad_de_series', 'cantidad_de_historias', 'fecha_modificacion',
+       'fecha_insercion_bd'],
+      dtype='object')
+[2023-08-01 02:15:40,822] {python.py:173} INFO - Done. Returned value was: None
+[2023-08-01 02:15:40,837] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=etl_api_marvel_hacia_aws_redshift_multitask, task_id=transformar_data, execution_date=20230801T021334, start_date=20230801T021540, end_date=20230801T021540
+[2023-08-01 02:15:40,863] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-08-01 02:15:40,908] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 02:15:40,909] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 02:15:40,909] {logging_mixin.py:115} INFO - ['conf', 'dag', 'dag_run', 'data_interval_end', 'data_interval_start', 'ds', 'ds_nodash', 'execution_date', 'inlets', 'logical_date', 'macros', 'next_ds', 'next_ds_nodash', 'next_execution_date', 'outlets', 'params', 'prev_data_interval_start_success', 'prev_data_interval_end_success', 'prev_ds', 'prev_ds_nodash', 'prev_execution_date', 'prev_execution_date_success', 'prev_start_date_success', 'run_id', 'task', 'task_instance', 'task_instance_key_str', 'test_mode', 'ti', 'tomorrow_ds', 'tomorrow_ds_nodash', 'ts', 'ts_nodash', 'ts_nodash_with_tz', 'var', 'conn', 'yesterday_ds', 'yesterday_ds_nodash']
+[2023-08-01 02:15:40,909] {logging_mixin.py:115} INFO - conf
+[2023-08-01 02:15:40,910] {logging_mixin.py:115} INFO - dag
+[2023-08-01 02:15:40,910] {logging_mixin.py:115} INFO - dag_run
+[2023-08-01 02:15:40,910] {logging_mixin.py:115} INFO - data_interval_end
+[2023-08-01 02:15:40,910] {logging_mixin.py:115} INFO - data_interval_start
+[2023-08-01 02:15:40,910] {logging_mixin.py:115} INFO - ds
+[2023-08-01 02:15:40,910] {logging_mixin.py:115} INFO - ds_nodash
+[2023-08-01 02:15:40,910] {logging_mixin.py:115} INFO - execution_date
+[2023-08-01 02:15:40,910] {logging_mixin.py:115} INFO - inlets
+[2023-08-01 02:15:40,910] {logging_mixin.py:115} INFO - logical_date
+[2023-08-01 02:15:40,910] {logging_mixin.py:115} INFO - macros
+[2023-08-01 02:15:40,910] {logging_mixin.py:115} INFO - next_ds
+[2023-08-01 02:15:40,910] {logging_mixin.py:115} INFO - next_ds_nodash
+[2023-08-01 02:15:40,911] {logging_mixin.py:115} INFO - next_execution_date
+[2023-08-01 02:15:40,911] {logging_mixin.py:115} INFO - outlets
+[2023-08-01 02:15:40,911] {logging_mixin.py:115} INFO - params
+[2023-08-01 02:15:40,911] {logging_mixin.py:115} INFO - prev_data_interval_start_success
+[2023-08-01 02:15:40,911] {logging_mixin.py:115} INFO - prev_data_interval_end_success
+[2023-08-01 02:15:40,911] {logging_mixin.py:115} INFO - prev_ds
+[2023-08-01 02:15:40,911] {logging_mixin.py:115} INFO - prev_ds_nodash
+[2023-08-01 02:15:40,911] {logging_mixin.py:115} INFO - prev_execution_date
+[2023-08-01 02:15:40,911] {logging_mixin.py:115} INFO - prev_execution_date_success
+[2023-08-01 02:15:40,911] {logging_mixin.py:115} INFO - prev_start_date_success
+[2023-08-01 02:15:40,912] {logging_mixin.py:115} INFO - run_id
+[2023-08-01 02:15:40,912] {logging_mixin.py:115} INFO - task
+[2023-08-01 02:15:40,912] {logging_mixin.py:115} INFO - task_instance
+[2023-08-01 02:15:40,912] {logging_mixin.py:115} INFO - task_instance_key_str
+[2023-08-01 02:15:40,912] {logging_mixin.py:115} INFO - test_mode
+[2023-08-01 02:15:40,912] {logging_mixin.py:115} INFO - ti
+[2023-08-01 02:15:40,912] {logging_mixin.py:115} INFO - tomorrow_ds
+[2023-08-01 02:15:40,912] {logging_mixin.py:115} INFO - tomorrow_ds_nodash
+[2023-08-01 02:15:40,912] {logging_mixin.py:115} INFO - ts
+[2023-08-01 02:15:40,912] {logging_mixin.py:115} INFO - ts_nodash
+[2023-08-01 02:15:40,912] {logging_mixin.py:115} INFO - ts_nodash_with_tz
+[2023-08-01 02:15:40,913] {logging_mixin.py:115} INFO - var
+[2023-08-01 02:15:40,913] {logging_mixin.py:115} INFO - conn
+[2023-08-01 02:15:40,913] {logging_mixin.py:115} INFO - yesterday_ds
+[2023-08-01 02:15:40,913] {logging_mixin.py:115} INFO - yesterday_ds_nodash
+[2023-08-01 02:15:43,940] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,25 @@
+[2023-07-30 22:02:28,272] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_smtp_email_automatico.dag_envio scheduled__2022-10-10T00:00:00+00:00 [queued]>
+[2023-07-30 22:02:28,339] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_smtp_email_automatico.dag_envio scheduled__2022-10-10T00:00:00+00:00 [queued]>
+[2023-07-30 22:02:28,340] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-30 22:02:28,340] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-07-30 22:02:28,340] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-30 22:02:28,385] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): dag_envio> on 2022-10-10 00:00:00+00:00
+[2023-07-30 22:02:28,393] {standard_task_runner.py:52} INFO - Started process 844 to run task
+[2023-07-30 22:02:28,403] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_smtp_email_automatico', 'dag_envio', 'scheduled__2022-10-10T00:00:00+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/dag_smtp_email.py', '--cfg-path', '/tmp/tmpo31_w2xm', '--error-file', '/tmp/tmpy7i5mawy']
+[2023-07-30 22:02:28,403] {standard_task_runner.py:80} INFO - Job 36: Subtask dag_envio
+[2023-07-30 22:02:28,677] {task_command.py:371} INFO - Running <TaskInstance: dag_smtp_email_automatico.dag_envio scheduled__2022-10-10T00:00:00+00:00 [running]> on host b0e2d990d7ae
+[2023-07-30 22:02:28,984] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Ariel Feldman
+AIRFLOW_CTX_DAG_ID=dag_smtp_email_automatico
+AIRFLOW_CTX_TASK_ID=dag_envio
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-10-10T00:00:00+00:00
+[2023-07-30 22:02:29,636] {logging_mixin.py:115} INFO - 'EMAIL'
+[2023-07-30 22:02:29,637] {logging_mixin.py:115} INFO - Failure
+[2023-07-30 22:02:29,637] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-30 22:02:29,713] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=dag_smtp_email_automatico, task_id=dag_envio, execution_date=20221010T000000, start_date=20230730T220228, end_date=20230730T220229
+[2023-07-30 22:02:29,807] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-30 22:02:29,945] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

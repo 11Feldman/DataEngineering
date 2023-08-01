@@ -1,0 +1,27 @@
+[2023-08-01 23:12:55,467] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_2.extract manual__2023-08-01T23:12:54.059731+00:00 [queued]>
+[2023-08-01 23:12:55,480] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_2.extract manual__2023-08-01T23:12:54.059731+00:00 [queued]>
+[2023-08-01 23:12:55,481] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 23:12:55,481] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2023-08-01 23:12:55,481] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 23:12:55,498] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): extract> on 2023-08-01 23:12:54.059731+00:00
+[2023-08-01 23:12:55,506] {standard_task_runner.py:52} INFO - Started process 1447 to run task
+[2023-08-01 23:12:55,510] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'etl_api_marvel_2', 'extract', 'manual__2023-08-01T23:12:54.059731+00:00', '--job-id', '1266', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_multiple_tasks_no_failure.py', '--cfg-path', '/tmp/tmpmyzh6xj4', '--error-file', '/tmp/tmpeq66139n']
+[2023-08-01 23:12:55,511] {standard_task_runner.py:80} INFO - Job 1266: Subtask extract
+[2023-08-01 23:12:55,590] {task_command.py:371} INFO - Running <TaskInstance: etl_api_marvel_2.extract manual__2023-08-01T23:12:54.059731+00:00 [running]> on host 24cbf2f01ed0
+[2023-08-01 23:12:55,686] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=arielmfeldman.af@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Ariel Feldman
+AIRFLOW_CTX_DAG_ID=etl_api_marvel_2
+AIRFLOW_CTX_TASK_ID=extract
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-01T23:12:54.059731+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-08-01T23:12:54.059731+00:00
+[2023-08-01 23:12:56,736] {python.py:173} INFO - Done. Returned value was: None
+[2023-08-01 23:12:56,760] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=etl_api_marvel_2, task_id=extract, execution_date=20230801T231254, start_date=20230801T231255, end_date=20230801T231256
+[2023-08-01 23:12:56,820] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-08-01 23:12:56,848] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 23:13:00,194] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

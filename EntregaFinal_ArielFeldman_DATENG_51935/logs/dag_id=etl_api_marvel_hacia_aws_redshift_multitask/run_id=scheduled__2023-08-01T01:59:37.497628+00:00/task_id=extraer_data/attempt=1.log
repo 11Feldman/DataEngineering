@@ -1,0 +1,25 @@
+[2023-08-01 02:01:39,436] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.extraer_data scheduled__2023-08-01T01:59:37.497628+00:00 [queued]>
+[2023-08-01 02:01:39,455] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.extraer_data scheduled__2023-08-01T01:59:37.497628+00:00 [queued]>
+[2023-08-01 02:01:39,456] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 02:01:39,456] {taskinstance.py:1377} INFO - Starting attempt 1 of 11
+[2023-08-01 02:01:39,456] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 02:01:39,487] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): extraer_data> on 2023-08-01 01:59:37.497628+00:00
+[2023-08-01 02:01:39,496] {standard_task_runner.py:52} INFO - Started process 2071 to run task
+[2023-08-01 02:01:39,503] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'etl_api_marvel_hacia_aws_redshift_multitask', 'extraer_data', 'scheduled__2023-08-01T01:59:37.497628+00:00', '--job-id', '674', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_multiple_tasks.py', '--cfg-path', '/tmp/tmprjiitnk_', '--error-file', '/tmp/tmp9v53v354']
+[2023-08-01 02:01:39,505] {standard_task_runner.py:80} INFO - Job 674: Subtask extraer_data
+[2023-08-01 02:01:39,601] {task_command.py:371} INFO - Running <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.extraer_data scheduled__2023-08-01T01:59:37.497628+00:00 [running]> on host 24cbf2f01ed0
+[2023-08-01 02:01:39,720] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=arielmfeldman.af@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Ariel Feldman
+AIRFLOW_CTX_DAG_ID=etl_api_marvel_hacia_aws_redshift_multitask
+AIRFLOW_CTX_TASK_ID=extraer_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-01T01:59:37.497628+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-01T01:59:37.497628+00:00
+[2023-08-01 02:01:41,318] {python.py:173} INFO - Done. Returned value was: None
+[2023-08-01 02:01:41,362] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=etl_api_marvel_hacia_aws_redshift_multitask, task_id=extraer_data, execution_date=20230801T015937, start_date=20230801T020139, end_date=20230801T020141
+[2023-08-01 02:01:41,409] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-08-01 02:01:41,450] {logging_mixin.py:115} INFO - ['conf', 'dag', 'dag_run', 'data_interval_end', 'data_interval_start', 'ds', 'ds_nodash', 'execution_date', 'inlets', 'logical_date', 'macros', 'next_ds', 'next_ds_nodash', 'next_execution_date', 'outlets', 'params', 'prev_data_interval_start_success', 'prev_data_interval_end_success', 'prev_ds', 'prev_ds_nodash', 'prev_execution_date', 'prev_execution_date_success', 'prev_start_date_success', 'run_id', 'task', 'task_instance', 'task_instance_key_str', 'test_mode', 'ti', 'tomorrow_ds', 'tomorrow_ds_nodash', 'ts', 'ts_nodash', 'ts_nodash_with_tz', 'var', 'conn', 'yesterday_ds', 'yesterday_ds_nodash']
+[2023-08-01 02:01:45,116] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

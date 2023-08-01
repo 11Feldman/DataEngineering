@@ -1,0 +1,25 @@
+[2023-07-30 22:04:59,933] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_smtp_email_automatico.dag_envio manual__2023-07-30T22:04:57.291169+00:00 [queued]>
+[2023-07-30 22:04:59,952] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_smtp_email_automatico.dag_envio manual__2023-07-30T22:04:57.291169+00:00 [queued]>
+[2023-07-30 22:04:59,953] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-30 22:04:59,953] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-07-30 22:04:59,953] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-30 22:04:59,985] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): dag_envio> on 2023-07-30 22:04:57.291169+00:00
+[2023-07-30 22:04:59,994] {standard_task_runner.py:52} INFO - Started process 1210 to run task
+[2023-07-30 22:05:00,005] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_smtp_email_automatico', 'dag_envio', 'manual__2023-07-30T22:04:57.291169+00:00', '--job-id', '176', '--raw', '--subdir', 'DAGS_FOLDER/dag_smtp_email.py', '--cfg-path', '/tmp/tmpb9hr9yql', '--error-file', '/tmp/tmpvweq28u4']
+[2023-07-30 22:05:00,006] {standard_task_runner.py:80} INFO - Job 176: Subtask dag_envio
+[2023-07-30 22:05:00,187] {task_command.py:371} INFO - Running <TaskInstance: dag_smtp_email_automatico.dag_envio manual__2023-07-30T22:04:57.291169+00:00 [running]> on host b0e2d990d7ae
+[2023-07-30 22:05:00,550] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Ariel Feldman
+AIRFLOW_CTX_DAG_ID=dag_smtp_email_automatico
+AIRFLOW_CTX_TASK_ID=dag_envio
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-30T22:04:57.291169+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-30T22:04:57.291169+00:00
+[2023-07-30 22:05:02,299] {logging_mixin.py:115} INFO - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials l17-20020a9d6a91000000b006b99f66444bsm3565625otq.71 - gsmtp')
+[2023-07-30 22:05:02,299] {logging_mixin.py:115} INFO - Failure
+[2023-07-30 22:05:02,299] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-30 22:05:02,614] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=dag_smtp_email_automatico, task_id=dag_envio, execution_date=20230730T220457, start_date=20230730T220459, end_date=20230730T220502
+[2023-07-30 22:05:02,797] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-30 22:05:02,973] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

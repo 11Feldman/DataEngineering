@@ -7,7 +7,6 @@ node_modules
 # Ignora todos los archivos de texto
 *.json
 
-
 # Ignoro subida de archivo especifico
 config.py*
 Entregable_3/etl.py*
@@ -19,11 +18,10 @@ test_context.py*
 test_pythonoperator.py*
 Entregable_2/etl_v2.py*
 characters.py*
+smtplib_test.py*
+dag_smtp_email.py*
 
 # Ignora subidas de carpetas
-Entregable_1/__pycache__*
-Entregable_2/__pycache__*
-Entregable_2/data*
 Entregable_3/__pycache__*
 
 # Ignora los archivos relacionados a API keys

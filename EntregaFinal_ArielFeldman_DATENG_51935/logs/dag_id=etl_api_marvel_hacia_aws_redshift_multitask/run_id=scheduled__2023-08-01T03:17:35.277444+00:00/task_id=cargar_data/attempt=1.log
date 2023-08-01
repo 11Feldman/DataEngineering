@@ -1,0 +1,104 @@
+[2023-08-01 03:19:41,498] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.cargar_data scheduled__2023-08-01T03:17:35.277444+00:00 [queued]>
+[2023-08-01 03:19:41,509] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.cargar_data scheduled__2023-08-01T03:17:35.277444+00:00 [queued]>
+[2023-08-01 03:19:41,509] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 03:19:41,509] {taskinstance.py:1377} INFO - Starting attempt 1 of 11
+[2023-08-01 03:19:41,509] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 03:19:41,524] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cargar_data> on 2023-08-01 03:17:35.277444+00:00
+[2023-08-01 03:19:41,531] {standard_task_runner.py:52} INFO - Started process 5782 to run task
+[2023-08-01 03:19:41,535] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'etl_api_marvel_hacia_aws_redshift_multitask', 'cargar_data', 'scheduled__2023-08-01T03:17:35.277444+00:00', '--job-id', '787', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_multiple_tasks.py', '--cfg-path', '/tmp/tmpgngm8f62', '--error-file', '/tmp/tmp0lxlwvni']
+[2023-08-01 03:19:41,536] {standard_task_runner.py:80} INFO - Job 787: Subtask cargar_data
+[2023-08-01 03:19:41,616] {task_command.py:371} INFO - Running <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.cargar_data scheduled__2023-08-01T03:17:35.277444+00:00 [running]> on host 24cbf2f01ed0
+[2023-08-01 03:19:41,715] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=arielmfeldman.af@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Ariel Feldman
+AIRFLOW_CTX_DAG_ID=etl_api_marvel_hacia_aws_redshift_multitask
+AIRFLOW_CTX_TASK_ID=cargar_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-01T03:17:35.277444+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-01T03:17:35.277444+00:00
+[2023-08-01 03:19:41,734] {logging_mixin.py:115} INFO - Columnas en load data
+[2023-08-01 03:19:41,735] {logging_mixin.py:115} INFO -  Index(['id_character', 'nombre', 'descripcion', 'cantidad_de_comics',
+       'cantidad_de_series', 'cantidad_de_historias', 'fecha_modificacion',
+       'fecha_insercion_bd'],
+      dtype='object')
+[2023-08-01 03:19:52,785] {python.py:173} INFO - Done. Returned value was: None
+[2023-08-01 03:19:52,805] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=etl_api_marvel_hacia_aws_redshift_multitask, task_id=cargar_data, execution_date=20230801T031735, start_date=20230801T031941, end_date=20230801T031952
+[2023-08-01 03:19:52,868] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-08-01 03:19:52,898] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 03:19:52,899] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 03:19:52,899] {logging_mixin.py:115} INFO - ['conf', 'dag', 'dag_run', 'data_interval_end', 'data_interval_start', 'ds', 'ds_nodash', 'execution_date', 'inlets', 'logical_date', 'macros', 'next_ds', 'next_ds_nodash', 'next_execution_date', 'outlets', 'params', 'prev_data_interval_start_success', 'prev_data_interval_end_success', 'prev_ds', 'prev_ds_nodash', 'prev_execution_date', 'prev_execution_date_success', 'prev_start_date_success', 'run_id', 'task', 'task_instance', 'task_instance_key_str', 'test_mode', 'ti', 'tomorrow_ds', 'tomorrow_ds_nodash', 'ts', 'ts_nodash', 'ts_nodash_with_tz', 'var', 'conn', 'yesterday_ds', 'yesterday_ds_nodash']
+[2023-08-01 03:19:52,899] {logging_mixin.py:115} INFO - conf  :  <***.configuration.AirflowConfigParser object at 0x7fba48594750>
+[2023-08-01 03:19:52,900] {logging_mixin.py:115} INFO - dag  :  <DAG: etl_api_marvel_hacia_aws_redshift_multitask>
+[2023-08-01 03:19:52,900] {logging_mixin.py:115} INFO - dag_run  :  <DagRun etl_api_marvel_hacia_aws_redshift_multitask @ 2023-08-01 03:17:35.277444+00:00: scheduled__2023-08-01T03:17:35.277444+00:00, externally triggered: False>
+[2023-08-01 03:19:52,900] {logging_mixin.py:115} INFO - data_interval_end  :  2023-08-01T03:19:35.277444+00:00
+[2023-08-01 03:19:52,900] {logging_mixin.py:115} INFO - data_interval_start  :  2023-08-01T03:17:35.277444+00:00
+[2023-08-01 03:19:52,900] {logging_mixin.py:115} INFO - ds  :  2023-08-01
+[2023-08-01 03:19:52,900] {logging_mixin.py:115} INFO - ds_nodash  :  20230801
+[2023-08-01 03:19:52,900] {logging_mixin.py:115} INFO - execution_date  :  2023-08-01T03:17:35.277444+00:00
+[2023-08-01 03:19:52,900] {logging_mixin.py:115} INFO - inlets  :  []
+[2023-08-01 03:19:52,900] {logging_mixin.py:115} INFO - logical_date  :  2023-08-01T03:17:35.277444+00:00
+[2023-08-01 03:19:52,900] {logging_mixin.py:115} INFO - macros  :  <module '***.macros' from '/home/***/.local/lib/python3.7/site-packages/***/macros/__init__.py'>
+[2023-08-01 03:19:52,901] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'next_ds' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds }}' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 03:19:52,901] {logging_mixin.py:115} INFO - next_ds  :  2023-08-01
+[2023-08-01 03:19:52,901] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'next_ds_nodash' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds_nodash }}' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 03:19:52,901] {logging_mixin.py:115} INFO - next_ds_nodash  :  20230801
+[2023-08-01 03:19:52,901] {logging_mixin.py:115} INFO - next_execution_date  :  2023-08-01T03:19:35.277444+00:00
+[2023-08-01 03:19:52,901] {logging_mixin.py:115} INFO - outlets  :  []
+[2023-08-01 03:19:52,901] {logging_mixin.py:115} INFO - params  :  {}
+[2023-08-01 03:19:52,901] {logging_mixin.py:115} INFO - prev_data_interval_start_success  :  2023-08-01T03:15:35.063483+00:00
+[2023-08-01 03:19:52,901] {logging_mixin.py:115} INFO - prev_data_interval_end_success  :  2023-08-01T03:17:35.063483+00:00
+[2023-08-01 03:19:52,901] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'prev_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 03:19:52,902] {logging_mixin.py:115} INFO - prev_ds  :  2023-08-01
+[2023-08-01 03:19:52,902] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'prev_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 03:19:52,902] {logging_mixin.py:115} INFO - prev_ds_nodash  :  20230801
+[2023-08-01 03:19:52,902] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'prev_execution_date' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 03:19:52,902] {logging_mixin.py:115} INFO - prev_execution_date  :  2023-08-01T03:15:35.277444+00:00
+[2023-08-01 03:19:52,902] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'prev_execution_date_success' from the template is deprecated and will be removed in a future version. Please use 'prev_data_interval_start_success' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 03:19:52,902] {logging_mixin.py:115} INFO - prev_execution_date_success  :  2023-08-01T03:15:35.063483+00:00
+[2023-08-01 03:19:52,902] {logging_mixin.py:115} INFO - prev_start_date_success  :  2023-08-01T03:17:35.663126+00:00
+[2023-08-01 03:19:52,903] {logging_mixin.py:115} INFO - run_id  :  scheduled__2023-08-01T03:17:35.277444+00:00
+[2023-08-01 03:19:52,903] {logging_mixin.py:115} INFO - task  :  <Task(PythonOperator): cargar_data>
+[2023-08-01 03:19:52,903] {logging_mixin.py:115} INFO - task_instance  :  <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.cargar_data scheduled__2023-08-01T03:17:35.277444+00:00 [success]>
+[2023-08-01 03:19:52,903] {logging_mixin.py:115} INFO - task_instance_key_str  :  etl_api_marvel_hacia_aws_redshift_multitask__cargar_data__20230801
+[2023-08-01 03:19:52,903] {logging_mixin.py:115} INFO - test_mode  :  False
+[2023-08-01 03:19:52,903] {logging_mixin.py:115} INFO - ti  :  <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.cargar_data scheduled__2023-08-01T03:17:35.277444+00:00 [success]>
+[2023-08-01 03:19:52,904] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 03:19:52,904] {logging_mixin.py:115} INFO - tomorrow_ds  :  2023-08-02
+[2023-08-01 03:19:52,904] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'tomorrow_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 03:19:52,904] {logging_mixin.py:115} INFO - tomorrow_ds_nodash  :  20230802
+[2023-08-01 03:19:52,904] {logging_mixin.py:115} INFO - ts  :  2023-08-01T03:17:35.277444+00:00
+[2023-08-01 03:19:52,904] {logging_mixin.py:115} INFO - ts_nodash  :  20230801T031735
+[2023-08-01 03:19:52,904] {logging_mixin.py:115} INFO - ts_nodash_with_tz  :  20230801T031735.277444+0000
+[2023-08-01 03:19:52,904] {logging_mixin.py:115} INFO - var  :  {'json': None, 'value': None}
+[2023-08-01 03:19:52,904] {logging_mixin.py:115} INFO - conn  :  None
+[2023-08-01 03:19:52,905] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'yesterday_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 03:19:52,905] {logging_mixin.py:115} INFO - yesterday_ds  :  2023-07-31
+[2023-08-01 03:19:52,905] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'yesterday_ds_nodash' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 03:19:52,905] {logging_mixin.py:115} INFO - yesterday_ds_nodash  :  20230731
+[2023-08-01 03:19:56,191] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

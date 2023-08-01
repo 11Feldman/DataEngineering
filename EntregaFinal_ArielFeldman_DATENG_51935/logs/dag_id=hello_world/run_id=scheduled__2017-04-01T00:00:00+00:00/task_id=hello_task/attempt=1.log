@@ -1,0 +1,24 @@
+[2023-07-31 00:00:33,522] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: hello_world.hello_task scheduled__2017-04-01T00:00:00+00:00 [queued]>
+[2023-07-31 00:00:33,851] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: hello_world.hello_task scheduled__2017-04-01T00:00:00+00:00 [queued]>
+[2023-07-31 00:00:33,851] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 00:00:33,852] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-07-31 00:00:33,852] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-31 00:00:34,727] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): hello_task> on 2017-04-01 00:00:00+00:00
+[2023-07-31 00:00:34,803] {standard_task_runner.py:52} INFO - Started process 6477 to run task
+[2023-07-31 00:00:35,057] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'hello_world', 'hello_task', 'scheduled__2017-04-01T00:00:00+00:00', '--job-id', '350', '--raw', '--subdir', 'DAGS_FOLDER/dag_smtp_test.py', '--cfg-path', '/tmp/tmpesuk1l4o', '--error-file', '/tmp/tmpbwgjnohm']
+[2023-07-31 00:00:35,058] {standard_task_runner.py:80} INFO - Job 350: Subtask hello_task
+[2023-07-31 00:00:36,267] {task_command.py:371} INFO - Running <TaskInstance: hello_world.hello_task scheduled__2017-04-01T00:00:00+00:00 [running]> on host b0e2d990d7ae
+[2023-07-31 00:00:38,347] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=hello_world
+AIRFLOW_CTX_TASK_ID=hello_task
+AIRFLOW_CTX_EXECUTION_DATE=2017-04-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2017-04-01T00:00:00+00:00
+[2023-07-31 00:00:38,348] {logging_mixin.py:115} INFO - Hello world!
+[2023-07-31 00:00:38,349] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-31 00:00:38,629] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=hello_world, task_id=hello_task, execution_date=20170401T000000, start_date=20230731T000033, end_date=20230731T000038
+[2023-07-31 00:00:38,817] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-31 00:00:39,227] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

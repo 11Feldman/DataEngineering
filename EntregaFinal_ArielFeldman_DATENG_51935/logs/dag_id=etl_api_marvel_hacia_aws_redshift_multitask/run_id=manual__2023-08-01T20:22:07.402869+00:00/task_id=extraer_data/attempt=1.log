@@ -1,0 +1,30 @@
+[2023-08-01 20:22:10,154] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.extraer_data manual__2023-08-01T20:22:07.402869+00:00 [queued]>
+[2023-08-01 20:22:10,180] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.extraer_data manual__2023-08-01T20:22:07.402869+00:00 [queued]>
+[2023-08-01 20:22:10,181] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 20:22:10,181] {taskinstance.py:1377} INFO - Starting attempt 1 of 11
+[2023-08-01 20:22:10,181] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 20:22:10,223] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): extraer_data> on 2023-08-01 20:22:07.402869+00:00
+[2023-08-01 20:22:10,232] {standard_task_runner.py:52} INFO - Started process 11201 to run task
+[2023-08-01 20:22:10,236] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'etl_api_marvel_hacia_aws_redshift_multitask', 'extraer_data', 'manual__2023-08-01T20:22:07.402869+00:00', '--job-id', '976', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_multiple_tasks.py', '--cfg-path', '/tmp/tmp5cg_lqgv', '--error-file', '/tmp/tmp14hpm3rk']
+[2023-08-01 20:22:10,238] {standard_task_runner.py:80} INFO - Job 976: Subtask extraer_data
+[2023-08-01 20:22:10,321] {task_command.py:371} INFO - Running <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.extraer_data manual__2023-08-01T20:22:07.402869+00:00 [running]> on host 24cbf2f01ed0
+[2023-08-01 20:22:10,449] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=arielmfeldman.af@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Ariel Feldman
+AIRFLOW_CTX_DAG_ID=etl_api_marvel_hacia_aws_redshift_multitask
+AIRFLOW_CTX_TASK_ID=extraer_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-01T20:22:07.402869+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-08-01T20:22:07.402869+00:00
+[2023-08-01 20:22:11,843] {python.py:173} INFO - Done. Returned value was: None
+[2023-08-01 20:22:11,864] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=etl_api_marvel_hacia_aws_redshift_multitask, task_id=extraer_data, execution_date=20230801T202207, start_date=20230801T202210, end_date=20230801T202211
+[2023-08-01 20:22:11,894] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-08-01 20:22:11,941] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 20:22:11,942] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 20:22:14,527] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

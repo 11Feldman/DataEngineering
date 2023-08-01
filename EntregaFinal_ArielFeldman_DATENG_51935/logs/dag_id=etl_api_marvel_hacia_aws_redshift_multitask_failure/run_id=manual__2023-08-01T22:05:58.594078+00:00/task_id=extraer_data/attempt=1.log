@@ -1,0 +1,70 @@
+[2023-08-01 22:06:00,349] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask_failure.extraer_data manual__2023-08-01T22:05:58.594078+00:00 [queued]>
+[2023-08-01 22:06:00,362] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask_failure.extraer_data manual__2023-08-01T22:05:58.594078+00:00 [queued]>
+[2023-08-01 22:06:00,362] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 22:06:00,362] {taskinstance.py:1377} INFO - Starting attempt 1 of 2
+[2023-08-01 22:06:00,363] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 22:06:00,385] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): extraer_data> on 2023-08-01 22:05:58.594078+00:00
+[2023-08-01 22:06:00,393] {standard_task_runner.py:52} INFO - Started process 3048 to run task
+[2023-08-01 22:06:00,399] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'etl_api_marvel_hacia_aws_redshift_multitask_failure', 'extraer_data', 'manual__2023-08-01T22:05:58.594078+00:00', '--job-id', '1211', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_multiple_tasks_failure.py', '--cfg-path', '/tmp/tmp_vm8we_v', '--error-file', '/tmp/tmpq9xjv2s0']
+[2023-08-01 22:06:00,401] {standard_task_runner.py:80} INFO - Job 1211: Subtask extraer_data
+[2023-08-01 22:06:00,486] {task_command.py:371} INFO - Running <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask_failure.extraer_data manual__2023-08-01T22:05:58.594078+00:00 [running]> on host 24cbf2f01ed0
+[2023-08-01 22:06:00,584] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=arielmfeldman.af@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Ariel Feldman
+AIRFLOW_CTX_DAG_ID=etl_api_marvel_hacia_aws_redshift_multitask_failure
+AIRFLOW_CTX_TASK_ID=extraer_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-01T22:05:58.594078+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-08-01T22:05:58.594078+00:00
+[2023-08-01 22:06:01,906] {python.py:173} INFO - Done. Returned value was: None
+[2023-08-01 22:06:01,997] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=etl_api_marvel_hacia_aws_redshift_multitask_failure, task_id=extraer_data, execution_date=20230801T220558, start_date=20230801T220600, end_date=20230801T220601
+[2023-08-01 22:06:02,057] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-08-01 22:06:02,106] {logging_mixin.py:115} INFO - conf
+[2023-08-01 22:06:02,106] {logging_mixin.py:115} INFO - dag
+[2023-08-01 22:06:02,106] {logging_mixin.py:115} INFO - dag_run
+[2023-08-01 22:06:02,106] {logging_mixin.py:115} INFO - data_interval_end
+[2023-08-01 22:06:02,106] {logging_mixin.py:115} INFO - data_interval_start
+[2023-08-01 22:06:02,107] {logging_mixin.py:115} INFO - ds
+[2023-08-01 22:06:02,107] {logging_mixin.py:115} INFO - ds_nodash
+[2023-08-01 22:06:02,107] {logging_mixin.py:115} INFO - execution_date
+[2023-08-01 22:06:02,107] {logging_mixin.py:115} INFO - inlets
+[2023-08-01 22:06:02,107] {logging_mixin.py:115} INFO - logical_date
+[2023-08-01 22:06:02,107] {logging_mixin.py:115} INFO - macros
+[2023-08-01 22:06:02,107] {logging_mixin.py:115} INFO - next_ds
+[2023-08-01 22:06:02,107] {logging_mixin.py:115} INFO - next_ds_nodash
+[2023-08-01 22:06:02,107] {logging_mixin.py:115} INFO - next_execution_date
+[2023-08-01 22:06:02,107] {logging_mixin.py:115} INFO - outlets
+[2023-08-01 22:06:02,108] {logging_mixin.py:115} INFO - params
+[2023-08-01 22:06:02,108] {logging_mixin.py:115} INFO - prev_data_interval_start_success
+[2023-08-01 22:06:02,108] {logging_mixin.py:115} INFO - prev_data_interval_end_success
+[2023-08-01 22:06:02,108] {logging_mixin.py:115} INFO - prev_ds
+[2023-08-01 22:06:02,108] {logging_mixin.py:115} INFO - prev_ds_nodash
+[2023-08-01 22:06:02,108] {logging_mixin.py:115} INFO - prev_execution_date
+[2023-08-01 22:06:02,108] {logging_mixin.py:115} INFO - prev_execution_date_success
+[2023-08-01 22:06:02,108] {logging_mixin.py:115} INFO - prev_start_date_success
+[2023-08-01 22:06:02,109] {logging_mixin.py:115} INFO - run_id
+[2023-08-01 22:06:02,109] {logging_mixin.py:115} INFO - task
+[2023-08-01 22:06:02,109] {logging_mixin.py:115} INFO - task_instance
+[2023-08-01 22:06:02,109] {logging_mixin.py:115} INFO - task_instance_key_str
+[2023-08-01 22:06:02,109] {logging_mixin.py:115} INFO - test_mode
+[2023-08-01 22:06:02,109] {logging_mixin.py:115} INFO - ti
+[2023-08-01 22:06:02,109] {logging_mixin.py:115} INFO - tomorrow_ds
+[2023-08-01 22:06:02,109] {logging_mixin.py:115} INFO - tomorrow_ds_nodash
+[2023-08-01 22:06:02,109] {logging_mixin.py:115} INFO - ts
+[2023-08-01 22:06:02,109] {logging_mixin.py:115} INFO - ts_nodash
+[2023-08-01 22:06:02,109] {logging_mixin.py:115} INFO - ts_nodash_with_tz
+[2023-08-01 22:06:02,109] {logging_mixin.py:115} INFO - var
+[2023-08-01 22:06:02,109] {logging_mixin.py:115} INFO - conn
+[2023-08-01 22:06:02,109] {logging_mixin.py:115} INFO - yesterday_ds
+[2023-08-01 22:06:02,109] {logging_mixin.py:115} INFO - yesterday_ds_nodash
+[2023-08-01 22:06:02,110] {logging_mixin.py:115} INFO - extraer_data
+[2023-08-01 22:06:02,110] {taskinstance.py:1760} ERROR - Error when executing on_success_callback
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1758, in _run_finished_callback
+    task.on_success_callback(context)
+  File "/opt/airflow/dags/dag_etl_multiple_tasks_failure.py", line 95, in send_mail_success
+    for i in context['task_instance']:
+TypeError: 'TaskInstance' object is not iterable
+[2023-08-01 22:06:02,177] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

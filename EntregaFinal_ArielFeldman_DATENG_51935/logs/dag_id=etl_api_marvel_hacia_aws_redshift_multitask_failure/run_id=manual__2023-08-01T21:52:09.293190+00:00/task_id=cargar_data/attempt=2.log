@@ -1,0 +1,138 @@
+[2023-08-01 21:52:40,776] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask_failure.cargar_data manual__2023-08-01T21:52:09.293190+00:00 [queued]>
+[2023-08-01 21:52:40,792] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask_failure.cargar_data manual__2023-08-01T21:52:09.293190+00:00 [queued]>
+[2023-08-01 21:52:40,792] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 21:52:40,792] {taskinstance.py:1377} INFO - Starting attempt 2 of 2
+[2023-08-01 21:52:40,792] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 21:52:40,811] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): cargar_data> on 2023-08-01 21:52:09.293190+00:00
+[2023-08-01 21:52:40,820] {standard_task_runner.py:52} INFO - Started process 2473 to run task
+[2023-08-01 21:52:40,823] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'etl_api_marvel_hacia_aws_redshift_multitask_failure', 'cargar_data', 'manual__2023-08-01T21:52:09.293190+00:00', '--job-id', '1198', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_multiple_tasks_failure.py', '--cfg-path', '/tmp/tmp4cb1ge0k', '--error-file', '/tmp/tmp_agikd4n']
+[2023-08-01 21:52:40,825] {standard_task_runner.py:80} INFO - Job 1198: Subtask cargar_data
+[2023-08-01 21:52:40,903] {task_command.py:371} INFO - Running <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask_failure.cargar_data manual__2023-08-01T21:52:09.293190+00:00 [running]> on host 24cbf2f01ed0
+[2023-08-01 21:52:40,995] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=arielmfeldman.af@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Ariel Feldman
+AIRFLOW_CTX_DAG_ID=etl_api_marvel_hacia_aws_redshift_multitask_failure
+AIRFLOW_CTX_TASK_ID=cargar_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-01T21:52:09.293190+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-08-01T21:52:09.293190+00:00
+[2023-08-01 21:52:43,476] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/redshift_connector/core.py", line 1631, in execute
+    ps = cache["ps"][key]
+KeyError: ('INSERT INTO arielmfeldman_coderhouse.marvelcharacters ("id_character","nombre","descripcion","cantidad_de_comics","cantidad_de_series","cantidad_de_historias","fecha_modificacion") VALUES(1011334,\'3-D Man\',\'Sin descripcion\', 12, 3, 21, \'2014-04-29\', \'2023-08-01 21:52:40.996764\')', ())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_etl_multiple_tasks_failure.py", line 276, in load_data
+    cursor.execute(insert+values)
+  File "/home/airflow/.local/lib/python3.7/site-packages/redshift_connector/cursor.py", line 240, in execute
+    self._c.execute(self, operation, args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/redshift_connector/core.py", line 1701, in execute
+    self.handle_messages(cursor)
+  File "/home/airflow/.local/lib/python3.7/site-packages/redshift_connector/core.py", line 1969, in handle_messages
+    raise self.error
+redshift_connector.error.ProgrammingError: {'S': 'ERROR', 'C': '42601', 'M': 'INSERT has more expressions than target columns', 'F': '../src/pg/src/backend/parser/parser_analyze.c', 'L': '3081', 'R': 'transformInsertStmt'}
+[2023-08-01 21:52:43,490] {taskinstance.py:1420} INFO - Marking task as FAILED. dag_id=etl_api_marvel_hacia_aws_redshift_multitask_failure, task_id=cargar_data, execution_date=20230801T215209, start_date=20230801T215240, end_date=20230801T215243
+[2023-08-01 21:52:43,509] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/email.py:119: PendingDeprecationWarning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+  send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+
+[2023-08-01 21:52:43,509] {configuration.py:552} WARNING - section/key [smtp/smtp_user] not found in config
+[2023-08-01 21:52:43,509] {email.py:228} INFO - Email alerting: attempt 1
+[2023-08-01 21:52:43,519] {configuration.py:552} WARNING - section/key [smtp/smtp_user] not found in config
+[2023-08-01 21:52:43,520] {email.py:228} INFO - Email alerting: attempt 1
+[2023-08-01 21:52:43,520] {taskinstance.py:1964} ERROR - Failed to send email to: ['arielmfeldman.af@gmail.com']
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/redshift_connector/core.py", line 1631, in execute
+    ps = cache["ps"][key]
+KeyError: ('INSERT INTO arielmfeldman_coderhouse.marvelcharacters ("id_character","nombre","descripcion","cantidad_de_comics","cantidad_de_series","cantidad_de_historias","fecha_modificacion") VALUES(1011334,\'3-D Man\',\'Sin descripcion\', 12, 3, 21, \'2014-04-29\', \'2023-08-01 21:52:40.996764\')', ())
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1471, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1618, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1679, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_etl_multiple_tasks_failure.py", line 276, in load_data
+    cursor.execute(insert+values)
+  File "/home/airflow/.local/lib/python3.7/site-packages/redshift_connector/cursor.py", line 240, in execute
+    self._c.execute(self, operation, args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/redshift_connector/core.py", line 1701, in execute
+    self.handle_messages(cursor)
+  File "/home/airflow/.local/lib/python3.7/site-packages/redshift_connector/core.py", line 1969, in handle_messages
+    raise self.error
+redshift_connector.error.ProgrammingError: {'S': 'ERROR', 'C': '42601', 'M': 'INSERT has more expressions than target columns', 'F': '../src/pg/src/backend/parser/parser_analyze.c', 'L': '3081', 'R': 'transformInsertStmt'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2346, in email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 71, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 119, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 230, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 264, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1962, in handle_failure
+    self.email_alert(error, task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2348, in email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 71, in send_email
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 119, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 230, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/email.py", line 264, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/lib/python3.7/socket.py", line 728, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [Errno 99] Cannot assign requested address
+[2023-08-01 21:52:43,539] {standard_task_runner.py:97} ERROR - Failed to execute job 1198 for task cargar_data ({'S': 'ERROR', 'C': '42601', 'M': 'INSERT has more expressions than target columns', 'F': '../src/pg/src/backend/parser/parser_analyze.c', 'L': '3081', 'R': 'transformInsertStmt'}; 2473)
+[2023-08-01 21:52:43,562] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-08-01 21:52:43,595] {taskinstance.py:1752} ERROR - Error when executing on_failure_callback
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1750, in _run_finished_callback
+    task.on_failure_callback(context)
+TypeError: send_mail_on_failure() missing 1 required positional argument: 'task_id'
+[2023-08-01 21:52:43,612] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

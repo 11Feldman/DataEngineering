@@ -1,0 +1,95 @@
+[2023-08-01 04:03:40,102] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.transformar_data scheduled__2023-08-01T04:01:35.277444+00:00 [queued]>
+[2023-08-01 04:03:40,121] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.transformar_data scheduled__2023-08-01T04:01:35.277444+00:00 [queued]>
+[2023-08-01 04:03:40,121] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 04:03:40,121] {taskinstance.py:1377} INFO - Starting attempt 1 of 11
+[2023-08-01 04:03:40,121] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-01 04:03:40,142] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): transformar_data> on 2023-08-01 04:01:35.277444+00:00
+[2023-08-01 04:03:40,150] {standard_task_runner.py:52} INFO - Started process 7757 to run task
+[2023-08-01 04:03:40,154] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'etl_api_marvel_hacia_aws_redshift_multitask', 'transformar_data', 'scheduled__2023-08-01T04:01:35.277444+00:00', '--job-id', '852', '--raw', '--subdir', 'DAGS_FOLDER/dag_etl_multiple_tasks.py', '--cfg-path', '/tmp/tmpw_tjib33', '--error-file', '/tmp/tmphl03mx3y']
+[2023-08-01 04:03:40,156] {standard_task_runner.py:80} INFO - Job 852: Subtask transformar_data
+[2023-08-01 04:03:40,281] {task_command.py:371} INFO - Running <TaskInstance: etl_api_marvel_hacia_aws_redshift_multitask.transformar_data scheduled__2023-08-01T04:01:35.277444+00:00 [running]> on host 24cbf2f01ed0
+[2023-08-01 04:03:40,416] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=arielmfeldman.af@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Ariel Feldman
+AIRFLOW_CTX_DAG_ID=etl_api_marvel_hacia_aws_redshift_multitask
+AIRFLOW_CTX_TASK_ID=transformar_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-01T04:01:35.277444+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-01T04:01:35.277444+00:00
+[2023-08-01 04:03:40,453] {logging_mixin.py:115} INFO - 1
+[2023-08-01 04:03:40,454] {logging_mixin.py:115} INFO - 2
+[2023-08-01 04:03:40,454] {logging_mixin.py:115} INFO - 3
+[2023-08-01 04:03:40,454] {logging_mixin.py:115} INFO - 4
+[2023-08-01 04:03:40,454] {logging_mixin.py:115} INFO - 5
+[2023-08-01 04:03:40,454] {logging_mixin.py:115} INFO - 6
+[2023-08-01 04:03:40,454] {logging_mixin.py:115} INFO - 7
+[2023-08-01 04:03:40,454] {logging_mixin.py:115} INFO - 8
+[2023-08-01 04:03:40,455] {logging_mixin.py:115} INFO - 9
+[2023-08-01 04:03:40,455] {logging_mixin.py:115} INFO - 10
+[2023-08-01 04:03:40,455] {logging_mixin.py:115} INFO - 11
+[2023-08-01 04:03:40,455] {logging_mixin.py:115} INFO - 12
+[2023-08-01 04:03:40,455] {logging_mixin.py:115} INFO - 13
+[2023-08-01 04:03:40,455] {logging_mixin.py:115} INFO - 14
+[2023-08-01 04:03:40,455] {logging_mixin.py:115} INFO - 15
+[2023-08-01 04:03:40,455] {logging_mixin.py:115} INFO - 16
+[2023-08-01 04:03:40,455] {logging_mixin.py:115} INFO - 17
+[2023-08-01 04:03:40,455] {logging_mixin.py:115} INFO - 18
+[2023-08-01 04:03:40,456] {logging_mixin.py:115} INFO - 19
+[2023-08-01 04:03:40,456] {logging_mixin.py:115} INFO - 20
+[2023-08-01 04:03:40,520] {python.py:173} INFO - Done. Returned value was: None
+[2023-08-01 04:03:40,552] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=etl_api_marvel_hacia_aws_redshift_multitask, task_id=transformar_data, execution_date=20230801T040135, start_date=20230801T040340, end_date=20230801T040340
+[2023-08-01 04:03:40,612] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-08-01 04:03:40,675] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 04:03:40,676] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202: AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-01 04:03:40,677] {logging_mixin.py:115} INFO - conf
+[2023-08-01 04:03:40,677] {logging_mixin.py:115} INFO - dag
+[2023-08-01 04:03:40,677] {logging_mixin.py:115} INFO - dag_run
+[2023-08-01 04:03:40,677] {logging_mixin.py:115} INFO - data_interval_end
+[2023-08-01 04:03:40,677] {logging_mixin.py:115} INFO - data_interval_start
+[2023-08-01 04:03:40,677] {logging_mixin.py:115} INFO - ds
+[2023-08-01 04:03:40,677] {logging_mixin.py:115} INFO - ds_nodash
+[2023-08-01 04:03:40,677] {logging_mixin.py:115} INFO - execution_date
+[2023-08-01 04:03:40,678] {logging_mixin.py:115} INFO - inlets
+[2023-08-01 04:03:40,678] {logging_mixin.py:115} INFO - logical_date
+[2023-08-01 04:03:40,678] {logging_mixin.py:115} INFO - macros
+[2023-08-01 04:03:40,678] {logging_mixin.py:115} INFO - next_ds
+[2023-08-01 04:03:40,678] {logging_mixin.py:115} INFO - next_ds_nodash
+[2023-08-01 04:03:40,678] {logging_mixin.py:115} INFO - next_execution_date
+[2023-08-01 04:03:40,678] {logging_mixin.py:115} INFO - outlets
+[2023-08-01 04:03:40,678] {logging_mixin.py:115} INFO - params
+[2023-08-01 04:03:40,678] {logging_mixin.py:115} INFO - prev_data_interval_start_success
+[2023-08-01 04:03:40,678] {logging_mixin.py:115} INFO - prev_data_interval_end_success
+[2023-08-01 04:03:40,678] {logging_mixin.py:115} INFO - prev_ds
+[2023-08-01 04:03:40,679] {logging_mixin.py:115} INFO - prev_ds_nodash
+[2023-08-01 04:03:40,679] {logging_mixin.py:115} INFO - prev_execution_date
+[2023-08-01 04:03:40,679] {logging_mixin.py:115} INFO - prev_execution_date_success
+[2023-08-01 04:03:40,679] {logging_mixin.py:115} INFO - prev_start_date_success
+[2023-08-01 04:03:40,679] {logging_mixin.py:115} INFO - run_id
+[2023-08-01 04:03:40,679] {logging_mixin.py:115} INFO - task
+[2023-08-01 04:03:40,679] {logging_mixin.py:115} INFO - task_instance
+[2023-08-01 04:03:40,679] {logging_mixin.py:115} INFO - task_instance_key_str
+[2023-08-01 04:03:40,679] {logging_mixin.py:115} INFO - test_mode
+[2023-08-01 04:03:40,679] {logging_mixin.py:115} INFO - ti
+[2023-08-01 04:03:40,680] {logging_mixin.py:115} INFO - tomorrow_ds
+[2023-08-01 04:03:40,680] {logging_mixin.py:115} INFO - tomorrow_ds_nodash
+[2023-08-01 04:03:40,680] {logging_mixin.py:115} INFO - ts
+[2023-08-01 04:03:40,680] {logging_mixin.py:115} INFO - ts_nodash
+[2023-08-01 04:03:40,680] {logging_mixin.py:115} INFO - ts_nodash_with_tz
+[2023-08-01 04:03:40,680] {logging_mixin.py:115} INFO - var
+[2023-08-01 04:03:40,680] {logging_mixin.py:115} INFO - conn
+[2023-08-01 04:03:40,680] {logging_mixin.py:115} INFO - yesterday_ds
+[2023-08-01 04:03:40,680] {logging_mixin.py:115} INFO - yesterday_ds_nodash
+[2023-08-01 04:03:40,681] {taskinstance.py:1760} ERROR - Error when executing on_success_callback
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1758, in _run_finished_callback
+    task.on_success_callback(context)
+  File "/opt/airflow/dags/dag_etl_multiple_tasks.py", line 92, in send_mail_success
+    task_id=id_task
+KeyError: 'task'
+[2023-08-01 04:03:40,719] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
