@@ -50,12 +50,7 @@ Su estructura de carpetas debe estar de la siguiente manera.
 ![Estructura Carpeta](/EntregaFinal_ArielFeldman_DATENG_51935/images/estructura_carpetas.png)
 
 
-si no lo esta debe verificar y crearlas
-
-'config.py'
-'smtplib_test.py'
-
-no los tenga en cuenta.
+si no lo esta debe verificar y crearlas 'config.py', 'smtplib_test.py' no los tenga en cuenta.
 
 Luego, en la carpeta config, cree 3 archivos json que luego importara en las variables de apache airflow.
 
@@ -108,7 +103,75 @@ docker-compose up
 ```
 finalizado esto. 
 
-Ingreso a airflow y vamos a ejecutar el DAG creado que puede buscar por el tag.
+Ingreso a airflow y vamos a ejecutar 2 Dag,
+
+
+
+### DAG 1
+
+```
+Dag 1: --> etl_api_marvel
+
+```
+##### Ingreso correcto a la BD.
+
+```
+Como fue la corrida de las tareas ...
+```
+![variables](/EntregaFinal_ArielFeldman_DATENG_51935/images/corrida_correcta.png)
+
+```
+Como nos llega el mail de si cada tarea fue correcta.
+```
+![variables](/EntregaFinal_ArielFeldman_DATENG_51935/images/imagen_gmail_correcta.png)
+```
+Extract
+```
+![variables](/EntregaFinal_ArielFeldman_DATENG_51935/images/extract_correcta.png)
+
+```
+Transform
+```
+![variables](/EntregaFinal_ArielFeldman_DATENG_51935/images/transform_correcta.png)
+
+```
+Load
+```
+![variables](/EntregaFinal_ArielFeldman_DATENG_51935/images/load_correcta.png)
+
+### DAG 2
+
+```
+Dag 2: --> etl_api_marvel_2
+
+```
+
+##### Buscamos el fallo para mostrar la funcionalidad
+
+```
+Como fue la corrida de las tareas ...
+```
+![variables](/EntregaFinal_ArielFeldman_DATENG_51935/images/corrida_falla.png)
+
+```
+Como nos llega el mail de si cada tarea fue correcta.
+```
+![variables](/EntregaFinal_ArielFeldman_DATENG_51935/images/imagen_gmail_falla.png)
+
+```
+Extract
+```
+![variables](/EntregaFinal_ArielFeldman_DATENG_51935/images/extract_falla.png)
+
+```
+Transform
+```
+![variables](/EntregaFinal_ArielFeldman_DATENG_51935/images/transform_falla.png)
+
+```
+Load
+```
+![variables](/EntregaFinal_ArielFeldman_DATENG_51935/images/load_falla.png)
 
 
 ## Construido con 🛠️
