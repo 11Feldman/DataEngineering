@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 Su estructura de carpetas debe estar de la siguiente manera.
 
-![Estructura Carpeta](/images/estructura_carpetas.png)
+![Estructura Carpeta](/EntregaFinal_ArielFeldman_DATENG_51935/images/estructura_carpetas.png)
 
 
 si no lo esta debe verificar y crearlas
@@ -60,15 +60,14 @@ no los tenga en cuenta.
 Luego, en la carpeta config, cree 3 archivos json que luego importara en las variables de apache airflow.
 
 api_marvel.json
-![api_marvel.json](/images/api_marvel_images.png)
-
+![api_marvel.json](/EntregaFinal_ArielFeldman_DATENG_51935/images/api_marvel_images.png)
 
 aws_redshift.json
-![aws_redshift.json](/images/aws_redshift_images.png)
+![aws_redshift.json](/EntregaFinal_ArielFeldman_DATENG_51935/images/aws_redshift_images.png)
 
 
 smtp_env.json
-![smtp_env.json](/images/smtp_images.png)
+![smtp_env.json](/EntregaFinal_ArielFeldman_DATENG_51935/images/smtp_images.png)
 
 
 una vez creadas ejecutar en la terminal el siguiente codigo.
@@ -86,7 +85,7 @@ pass: airflow
 
 Luego ir a la imagen, buscar los json creados e importarlos.
 
-![variables](/images/variables.png)
+![variables](/EntregaFinal_ArielFeldman_DATENG_51935/images/variables.png)
 
 la variable de password la debe generar desde su cuenta de gmail en "contrasenia para aplicaciones"
 

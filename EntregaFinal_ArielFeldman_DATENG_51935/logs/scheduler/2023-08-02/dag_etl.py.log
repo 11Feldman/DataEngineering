@@ -670,3 +670,38 @@
 [2023-08-02 00:49:09,146] {logging_mixin.py:115} INFO - [2023-08-02 00:49:09,145] {dag.py:2420} INFO - Sync 1 DAGs
 [2023-08-02 00:49:09,172] {logging_mixin.py:115} INFO - [2023-08-02 00:49:09,172] {dag.py:2972} INFO - Setting next_dagrun for etl_api_marvel_hacia_aws_redshift to 2023-08-03T00:00:00+00:00, run_after=2023-08-04T00:00:00+00:00
 [2023-08-02 00:49:09,185] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_etl.py took 0.547 seconds
+[2023-08-02 00:49:40,065] {processor.py:153} INFO - Started process (PID=17420) to work on /opt/airflow/dags/dag_etl.py
+[2023-08-02 00:49:40,065] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_etl.py for tasks to queue
+[2023-08-02 00:49:40,066] {logging_mixin.py:115} INFO - [2023-08-02 00:49:40,065] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl.py
+[2023-08-02 00:49:40,420] {processor.py:651} INFO - DAG(s) dict_keys(['etl_api_marvel_hacia_aws_redshift']) retrieved from /opt/airflow/dags/dag_etl.py
+[2023-08-02 00:49:40,441] {logging_mixin.py:115} INFO - [2023-08-02 00:49:40,440] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-02 00:49:40,489] {logging_mixin.py:115} INFO - [2023-08-02 00:49:40,489] {dag.py:2972} INFO - Setting next_dagrun for etl_api_marvel_hacia_aws_redshift to 2023-08-03T00:00:00+00:00, run_after=2023-08-04T00:00:00+00:00
+[2023-08-02 00:49:40,516] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_etl.py took 0.455 seconds
+[2023-08-02 00:50:11,527] {processor.py:153} INFO - Started process (PID=17494) to work on /opt/airflow/dags/dag_etl.py
+[2023-08-02 00:50:11,527] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_etl.py for tasks to queue
+[2023-08-02 00:50:11,528] {logging_mixin.py:115} INFO - [2023-08-02 00:50:11,528] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl.py
+[2023-08-02 00:50:11,962] {processor.py:651} INFO - DAG(s) dict_keys(['etl_api_marvel_hacia_aws_redshift']) retrieved from /opt/airflow/dags/dag_etl.py
+[2023-08-02 00:50:12,037] {logging_mixin.py:115} INFO - [2023-08-02 00:50:12,037] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-02 00:50:12,068] {logging_mixin.py:115} INFO - [2023-08-02 00:50:12,068] {dag.py:2972} INFO - Setting next_dagrun for etl_api_marvel_hacia_aws_redshift to 2023-08-03T00:00:00+00:00, run_after=2023-08-04T00:00:00+00:00
+[2023-08-02 00:50:12,086] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_etl.py took 0.563 seconds
+[2023-08-02 00:50:42,724] {processor.py:153} INFO - Started process (PID=17560) to work on /opt/airflow/dags/dag_etl.py
+[2023-08-02 00:50:42,725] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_etl.py for tasks to queue
+[2023-08-02 00:50:42,725] {logging_mixin.py:115} INFO - [2023-08-02 00:50:42,725] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl.py
+[2023-08-02 00:50:43,036] {processor.py:651} INFO - DAG(s) dict_keys(['etl_api_marvel_hacia_aws_redshift']) retrieved from /opt/airflow/dags/dag_etl.py
+[2023-08-02 00:50:43,051] {logging_mixin.py:115} INFO - [2023-08-02 00:50:43,050] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-02 00:50:43,076] {logging_mixin.py:115} INFO - [2023-08-02 00:50:43,076] {dag.py:2972} INFO - Setting next_dagrun for etl_api_marvel_hacia_aws_redshift to 2023-08-03T00:00:00+00:00, run_after=2023-08-04T00:00:00+00:00
+[2023-08-02 00:50:43,088] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_etl.py took 0.367 seconds
+[2023-08-02 00:51:13,383] {processor.py:153} INFO - Started process (PID=17633) to work on /opt/airflow/dags/dag_etl.py
+[2023-08-02 00:51:13,384] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_etl.py for tasks to queue
+[2023-08-02 00:51:13,386] {logging_mixin.py:115} INFO - [2023-08-02 00:51:13,386] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl.py
+[2023-08-02 00:51:13,807] {processor.py:651} INFO - DAG(s) dict_keys(['etl_api_marvel_hacia_aws_redshift']) retrieved from /opt/airflow/dags/dag_etl.py
+[2023-08-02 00:51:13,869] {logging_mixin.py:115} INFO - [2023-08-02 00:51:13,868] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-02 00:51:13,895] {logging_mixin.py:115} INFO - [2023-08-02 00:51:13,895] {dag.py:2972} INFO - Setting next_dagrun for etl_api_marvel_hacia_aws_redshift to 2023-08-03T00:00:00+00:00, run_after=2023-08-04T00:00:00+00:00
+[2023-08-02 00:51:13,910] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_etl.py took 0.537 seconds
+[2023-08-02 00:51:44,322] {processor.py:153} INFO - Started process (PID=17698) to work on /opt/airflow/dags/dag_etl.py
+[2023-08-02 00:51:44,323] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_etl.py for tasks to queue
+[2023-08-02 00:51:44,324] {logging_mixin.py:115} INFO - [2023-08-02 00:51:44,323] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl.py
+[2023-08-02 00:51:44,834] {processor.py:651} INFO - DAG(s) dict_keys(['etl_api_marvel_hacia_aws_redshift']) retrieved from /opt/airflow/dags/dag_etl.py
+[2023-08-02 00:51:44,851] {logging_mixin.py:115} INFO - [2023-08-02 00:51:44,850] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-02 00:51:44,880] {logging_mixin.py:115} INFO - [2023-08-02 00:51:44,879] {dag.py:2972} INFO - Setting next_dagrun for etl_api_marvel_hacia_aws_redshift to 2023-08-03T00:00:00+00:00, run_after=2023-08-04T00:00:00+00:00
+[2023-08-02 00:51:44,892] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_etl.py took 0.575 seconds
