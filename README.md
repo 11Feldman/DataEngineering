@@ -4,114 +4,103 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-#### Entregable 1:
-+ A. Se debe conectar a una Api publica para extraer datos
-+ B. Crear tablas en Redshift.
-+ C. Insertar datos en Redshift.
-
-Se toman datos de la api de marvel https://developer.marvel.com/.
-
-Para este caso las credenciales no se suben y quedan de manera local en un archivo ".py" tambien se genero uno igual como ".env", pero para el caso
-se uso los del ".py"
-En estos archivos se encuentran.
-Las claves publicas y privadas, el hash generado, y los datos de conexion hacia aws.
-
-#### Entregable 2:
-
-+ A. Se debe conectar a una Api publica para extraer datos
-+ B. Crear tablas en Redshift.
-+ C. Verificar si hay duplicados con Pandas.
-+ C. Insertar datos desde un data frame en Redshift.
-
-Se toman datos de la api de marvel https://developer.marvel.com/.
-
-Para este caso las credenciales no se suben y quedan de manera local en un archivo ".py" tambien se genero uno igual como ".env", pero para el caso
-se uso los del ".py"
-En estos archivos se encuentran.
-Las claves publicas y privadas, el hash generado, y los datos de conexion hacia aws.
-
-#### Entregable 3:
+#### Proyecto:
 
 Utilizando AirFlow
 
 + A. Se debe conectar a una Api publica para extraer datos
 + B. Crear tablas en Redshift.
 + C. Verificar si hay duplicados con Pandas.
-+ C. Insertar datos desde un data frame en Redshift.
++ D. Insertar datos desde un data frame en Redshift.
++ E. Todo debe realizarse mediante Apache Airflow.
+
 
 Se toman datos de la api de marvel https://developer.marvel.com/.
 Para este caso se usa AirFlow:
-Usando DAGS, Operadores, Tareas y XCOMs.
-Apache Airflow se levanta con un docker-compose.
+Usando DAGS, Operadores, Tareas, XCOMs Variables de entorno, Instancia de contexto.
+Apache Airflow se levanta con un docker-compose up.
 Las credenciales a la api y las variables de conexion a AWS se encuentran en la configuracion de AirFlow para mantenerlas de manera secreta y encriptadas.
 
 
 ## Comenzando 🚀
-<!-- 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-Mira **Deployment** para conocer como desplegar el proyecto.
- -->
+Para poder utilizar este proyecto debe copiar el siguiente codigo 
+
+```
+git clone 'https://github.com/11Feldman/DataEngineering.git'
+```
 
 ### Pre-requisitos 📋
-<!-- 
-_Que cosas necesitas para instalar el software y como instalarlas_
+
+Debe tener instaladas estas herramientas.
+
+* [Airflow](https://airflow.apache.org/)  
+* [Python](https://www.python.org/)
+* [Docker](https://www.docker.com/)
+* [DBEAVER-CE](https://dbeaver.io/)
+
+Luego de tener instaladas estas herramientas debe ir a su terminal y ejecutar.
 
 ```
-Da un ejemplo
-``` -->
-
-### Instalación 🔧
-
-<!-- _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
+pip install -r requirements.txt
 ```
 
-_Y repite_
+Su estructura de carpetas debe estar de la siguiente manera.
+
+![Estructura Carpeta](/images/estructura_carpetas.png)
+
+
+si no lo esta debe verificar y crearlas
+
+'config.py'
+'smtplib_test.py'
+
+no los tenga en cuenta.
+
+Luego, en la carpeta config, cree 3 archivos json que luego importara en las variables de apache airflow.
+
+api_marvel.json
+![api_marvel.json](/images/api_marvel_images.png)
+
+
+aws_redshift.json
+![aws_redshift.json](/images/aws_redshift_images.png)
+
+
+smtp_env.json
+![smtp_env.json](/images/smtp_images.png)
+
+
+una vez creadas ejecutar en la terminal el siguiente codigo.
 
 ```
-hasta finalizar
+docker-compose up
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_ -->
+Finalizado esto.
 
-## Ejecutando las pruebas ⚙️
+Ir a http://localhost:8080 ingresar en apache airflow 
 
+user: airflow
+pass: airflow
+
+Luego ir a la imagen, buscar los json creados e importarlos.
+
+![variables](/images/variables.png)
+
+la variable de password la debe generar desde su cuenta de gmail en "contrasenia para aplicaciones"
+
+## Ejecutando las pruebas ⚙️ 📦
+
+Para ejecutar las pruebas levanto el docker compose.
 <!-- _Explica como ejecutar las pruebas automatizadas para este sistema_ -->
 ```
-En Desarrollo
+docker-compose up
 ```
+finalizado esto. 
 
+Ingreso a airflow y vamos a ejecutar el DAG creado que puede buscar por el tag.
 
-### Analice las pruebas end-to-end 🔩
-
-<!-- _Explica que verifican estas pruebas y por qué_ -->
-
-```
-En Desarrollo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-<!-- 
-_Explica que verifican estas pruebas y por qué_ -->
-
-```
-En Desarrollo
-```
-
-## Despliegue 📦
-
-```
-En Desarrollo
-```
-
-<!-- ```
-Agrega notas adicionales sobre como hacer deploy_
-``` -->
 
 ## Construido con 🛠️
 
@@ -124,6 +113,7 @@ Agrega notas adicionales sobre como hacer deploy_
 * [PySpark](https://spark.apache.org/docs/latest/api/python/) - Tecnologia utilizada para el proyecto
 * [Jupyter Notebook](https://jupyter.org/) - Tecnologia utilizada para el proyecto
 * [VSC](https://code.visualstudio.com/) - IDLE utilizado para el proyecto.
+* [DBEAVER-CE](https://dbeaver.io/) - Universal Database Tool 
 
 ## Versionado 📌
 
