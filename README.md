@@ -72,7 +72,7 @@ aws_redshift.json
 smtp_env.json
 ```
 
-![smtp_env.json](/EntregaFinal_ArielFeldman_DATENG_51935/images/smtp_images.png)
+![smtp_env.json](/EntregaFinal_ArielFeldman_DATENG_51935/images/smtp_image.png)
 
 
 una vez creadas ejecutar en la terminal el siguiente codigo.

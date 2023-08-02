@@ -1027,3 +1027,38 @@
 [2023-08-02 01:15:36,659] {logging_mixin.py:115} INFO - [2023-08-02 01:15:36,657] {dag.py:2420} INFO - Sync 1 DAGs
 [2023-08-02 01:15:36,717] {logging_mixin.py:115} INFO - [2023-08-02 01:15:36,716] {dag.py:2972} INFO - Setting next_dagrun for etl_api_marvel_2 to 2023-08-02T00:00:00+00:00, run_after=2023-08-03T00:00:00+00:00
 [2023-08-02 01:15:36,733] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_etl_failure.py took 0.847 seconds
+[2023-08-02 01:16:07,964] {processor.py:153} INFO - Started process (PID=20979) to work on /opt/airflow/dags/dag_etl_failure.py
+[2023-08-02 01:16:07,965] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_etl_failure.py for tasks to queue
+[2023-08-02 01:16:07,966] {logging_mixin.py:115} INFO - [2023-08-02 01:16:07,965] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_failure.py
+[2023-08-02 01:16:08,788] {processor.py:651} INFO - DAG(s) dict_keys(['etl_api_marvel_2']) retrieved from /opt/airflow/dags/dag_etl_failure.py
+[2023-08-02 01:16:08,865] {logging_mixin.py:115} INFO - [2023-08-02 01:16:08,864] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-02 01:16:08,932] {logging_mixin.py:115} INFO - [2023-08-02 01:16:08,931] {dag.py:2972} INFO - Setting next_dagrun for etl_api_marvel_2 to 2023-08-02T00:00:00+00:00, run_after=2023-08-03T00:00:00+00:00
+[2023-08-02 01:16:08,956] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_etl_failure.py took 1.000 seconds
+[2023-08-02 01:16:39,605] {processor.py:153} INFO - Started process (PID=21045) to work on /opt/airflow/dags/dag_etl_failure.py
+[2023-08-02 01:16:39,606] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_etl_failure.py for tasks to queue
+[2023-08-02 01:16:39,607] {logging_mixin.py:115} INFO - [2023-08-02 01:16:39,606] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_failure.py
+[2023-08-02 01:16:40,363] {processor.py:651} INFO - DAG(s) dict_keys(['etl_api_marvel_2']) retrieved from /opt/airflow/dags/dag_etl_failure.py
+[2023-08-02 01:16:40,433] {logging_mixin.py:115} INFO - [2023-08-02 01:16:40,431] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-02 01:16:40,489] {logging_mixin.py:115} INFO - [2023-08-02 01:16:40,489] {dag.py:2972} INFO - Setting next_dagrun for etl_api_marvel_2 to 2023-08-02T00:00:00+00:00, run_after=2023-08-03T00:00:00+00:00
+[2023-08-02 01:16:40,510] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_etl_failure.py took 0.912 seconds
+[2023-08-02 01:17:10,805] {processor.py:153} INFO - Started process (PID=21117) to work on /opt/airflow/dags/dag_etl_failure.py
+[2023-08-02 01:17:10,805] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_etl_failure.py for tasks to queue
+[2023-08-02 01:17:10,806] {logging_mixin.py:115} INFO - [2023-08-02 01:17:10,806] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_failure.py
+[2023-08-02 01:17:11,421] {processor.py:651} INFO - DAG(s) dict_keys(['etl_api_marvel_2']) retrieved from /opt/airflow/dags/dag_etl_failure.py
+[2023-08-02 01:17:11,497] {logging_mixin.py:115} INFO - [2023-08-02 01:17:11,493] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-02 01:17:11,552] {logging_mixin.py:115} INFO - [2023-08-02 01:17:11,551] {dag.py:2972} INFO - Setting next_dagrun for etl_api_marvel_2 to 2023-08-02T00:00:00+00:00, run_after=2023-08-03T00:00:00+00:00
+[2023-08-02 01:17:11,580] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_etl_failure.py took 0.779 seconds
+[2023-08-02 01:17:41,760] {processor.py:153} INFO - Started process (PID=21183) to work on /opt/airflow/dags/dag_etl_failure.py
+[2023-08-02 01:17:41,761] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_etl_failure.py for tasks to queue
+[2023-08-02 01:17:41,761] {logging_mixin.py:115} INFO - [2023-08-02 01:17:41,761] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_failure.py
+[2023-08-02 01:17:42,154] {processor.py:651} INFO - DAG(s) dict_keys(['etl_api_marvel_2']) retrieved from /opt/airflow/dags/dag_etl_failure.py
+[2023-08-02 01:17:42,210] {logging_mixin.py:115} INFO - [2023-08-02 01:17:42,208] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-02 01:17:42,248] {logging_mixin.py:115} INFO - [2023-08-02 01:17:42,248] {dag.py:2972} INFO - Setting next_dagrun for etl_api_marvel_2 to 2023-08-02T00:00:00+00:00, run_after=2023-08-03T00:00:00+00:00
+[2023-08-02 01:17:42,290] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_etl_failure.py took 0.534 seconds
+[2023-08-02 01:18:12,370] {processor.py:153} INFO - Started process (PID=21258) to work on /opt/airflow/dags/dag_etl_failure.py
+[2023-08-02 01:18:12,378] {processor.py:641} INFO - Processing file /opt/airflow/dags/dag_etl_failure.py for tasks to queue
+[2023-08-02 01:18:12,379] {logging_mixin.py:115} INFO - [2023-08-02 01:18:12,378] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/dag_etl_failure.py
+[2023-08-02 01:18:12,973] {processor.py:651} INFO - DAG(s) dict_keys(['etl_api_marvel_2']) retrieved from /opt/airflow/dags/dag_etl_failure.py
+[2023-08-02 01:18:13,016] {logging_mixin.py:115} INFO - [2023-08-02 01:18:13,015] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-08-02 01:18:13,057] {logging_mixin.py:115} INFO - [2023-08-02 01:18:13,057] {dag.py:2972} INFO - Setting next_dagrun for etl_api_marvel_2 to 2023-08-02T00:00:00+00:00, run_after=2023-08-03T00:00:00+00:00
+[2023-08-02 01:18:13,082] {processor.py:161} INFO - Processing /opt/airflow/dags/dag_etl_failure.py took 0.717 seconds
