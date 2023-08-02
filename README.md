@@ -59,14 +59,24 @@ no los tenga en cuenta.
 
 Luego, en la carpeta config, cree 3 archivos json que luego importara en las variables de apache airflow.
 
+```
 api_marvel.json
+```
+
 ![api_marvel.json](/EntregaFinal_ArielFeldman_DATENG_51935/images/api_marvel_images.png)
 
+
+```
 aws_redshift.json
+```
+
 ![aws_redshift.json](/EntregaFinal_ArielFeldman_DATENG_51935/images/aws_redshift_images.png)
 
 
+```
 smtp_env.json
+```
+
 ![smtp_env.json](/EntregaFinal_ArielFeldman_DATENG_51935/images/smtp_images.png)
 
 
